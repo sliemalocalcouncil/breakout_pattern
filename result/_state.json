@@ -6,7 +6,7 @@
   },
   "ACN::vcp": {
     "invalid_below": 174.8375,
-    "state": "forming",
+    "state": "absent",
     "trigger": 202.16
   },
   "ADI::breakout_retest_hold": {
