@@ -1,0 +1,81 @@
+{
+  "run_id": "20260427T051028Z-034ff6",
+  "asof": "2026-04-27T05:10:28.675232+00:00",
+  "n_signals": 183,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 47,
+    "vcp": 60,
+    "ascending_triangle": 15,
+    "base_on_base": 7,
+    "bull_flag": 28,
+    "tight_consolidation": 1,
+    "breakout_retest_hold": 11,
+    "cup_with_handle": 6,
+    "inverse_head_shoulders": 2,
+    "high_tight_pullback": 6
+  },
+  "by_state": {
+    "forming": 47,
+    "absent": 46,
+    "invalidated": 15,
+    "setup": 55,
+    "breakout_confirmed": 8,
+    "candidate": 12
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 47,
+      "vcp": 60,
+      "ascending_triangle": 15,
+      "base_on_base": 7,
+      "bull_flag": 28,
+      "tight_consolidation": 1,
+      "breakout_retest_hold": 11,
+      "cup_with_handle": 6,
+      "inverse_head_shoulders": 2,
+      "high_tight_pullback": 6
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 2,
+      "watch": 1,
+      "breakout": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MU",
+      "pattern": "breakout_retest_hold",
+      "score": 71.15,
+      "state": "setup"
+    },
+    {
+      "ticker": "ARM",
+      "pattern": "high_tight_pullback",
+      "score": 71.14,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "breakout_retest_hold",
+      "score": 70.57,
+      "state": "setup"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 69.41,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INTC",
+      "pattern": "high_tight_pullback",
+      "score": 66.6,
+      "state": "candidate"
+    }
+  ]
+}
