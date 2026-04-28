@@ -6,13 +6,13 @@
   },
   "ACN::vcp": {
     "invalid_below": 174.8375,
-    "state": "forming",
+    "state": "absent",
     "trigger": 202.16
   },
   "ADI::breakout_retest_hold": {
     "invalid_below": 378.6255,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 383.6
   },
   "ADI::bull_flag": {
@@ -175,8 +175,8 @@
   },
   "APH::vcp": {
     "invalid_below": 122.80980000000001,
-    "monitored_until": "2026-05-05T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 144.25
   },
   "ARM::breakout_retest_hold": {
@@ -674,14 +674,17 @@
   },
   "KLAC::inverse_head_shoulders": {
     "invalid_below": 1655.3033349999998,
-    "monitored_until": "2026-05-04T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "last_alert_at": "2026-04-28T21:00:30.524652+00:00",
+    "last_alert_score": 0.0,
+    "last_alert_type": "failed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 1823.27
   },
   "KLAC::vcp": {
     "invalid_below": 1655.3033349999998,
     "monitored_until": "2026-05-05T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 1798.0
   },
   "LEU::ascending_triangle": {
@@ -769,7 +772,7 @@
   },
   "LRCX::vcp": {
     "invalid_below": 251.6478,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 273.5
   },
   "MMM::double_bottom": {
@@ -1104,14 +1107,19 @@
     "trigger": 180.255
   },
   "SAPGF::double_bottom": {
-    "invalid_below": 158.69335,
-    "state": "forming",
+    "invalid_below": 164.29012,
+    "state": "absent",
     "trigger": 188.0
   },
+  "SAPGF::inverse_head_shoulders": {
+    "invalid_below": 159.964,
+    "state": "forming",
+    "trigger": 180.255
+  },
   "SAPGF::vcp": {
-    "invalid_below": 158.15357,
+    "invalid_below": 159.51287,
     "state": "absent",
-    "trigger": 178.12
+    "trigger": 188.0
   },
   "SMR::bull_flag": {
     "invalid_below": 11.348578999999999,
@@ -1156,7 +1164,7 @@
   },
   "TMUS::vcp": {
     "invalid_below": 184.983,
-    "state": "invalidated",
+    "state": "absent",
     "trigger": 216.35
   },
   "TSM::ascending_triangle": {
@@ -1272,8 +1280,8 @@
   },
   "VZ::breakout_retest_hold": {
     "invalid_below": 46.134,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-05-05T20:00:00+00:00",
+    "state": "setup",
     "trigger": 47.015
   },
   "VZ::bull_flag": {

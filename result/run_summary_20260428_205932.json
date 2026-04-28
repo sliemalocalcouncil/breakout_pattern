@@ -1,0 +1,79 @@
+{
+  "run_id": "20260428T205932Z-b0b05b",
+  "asof": "2026-04-28T20:59:32.843509+00:00",
+  "n_signals": 197,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 57,
+    "bull_flag": 35,
+    "vcp": 60,
+    "ascending_triangle": 13,
+    "base_on_base": 7,
+    "breakout_retest_hold": 13,
+    "cup_with_handle": 6,
+    "high_tight_pullback": 3,
+    "inverse_head_shoulders": 3
+  },
+  "by_state": {
+    "absent": 60,
+    "invalidated": 16,
+    "setup": 14,
+    "forming": 62,
+    "candidate": 10,
+    "breakout_confirmed": 31,
+    "breakout_failed": 2,
+    "retest_hold": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 57,
+      "bull_flag": 35,
+      "vcp": 60,
+      "ascending_triangle": 13,
+      "base_on_base": 7,
+      "breakout_retest_hold": 13,
+      "cup_with_handle": 6,
+      "high_tight_pullback": 3,
+      "inverse_head_shoulders": 2
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "failed": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 65.7,
+      "state": "setup"
+    },
+    {
+      "ticker": "INTC",
+      "pattern": "high_tight_pullback",
+      "score": 65.46,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 65.34,
+      "state": "setup"
+    },
+    {
+      "ticker": "INTC",
+      "pattern": "double_bottom",
+      "score": 64.5,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 64.47,
+      "state": "candidate"
+    }
+  ]
+}
