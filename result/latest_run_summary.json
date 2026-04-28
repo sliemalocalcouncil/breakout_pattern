@@ -1,44 +1,43 @@
 {
-  "run_id": "20260428T175923Z-105d5f",
-  "asof": "2026-04-28T17:59:23.807565+00:00",
-  "n_signals": 189,
+  "run_id": "20260428T194354Z-c731e7",
+  "asof": "2026-04-28T19:43:54.565554+00:00",
+  "n_signals": 193,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 51,
-    "bull_flag": 36,
+    "double_bottom": 56,
+    "bull_flag": 35,
     "vcp": 59,
     "ascending_triangle": 13,
     "base_on_base": 7,
-    "cup_with_handle": 6,
     "breakout_retest_hold": 13,
+    "cup_with_handle": 6,
     "high_tight_pullback": 3,
     "inverse_head_shoulders": 1
   },
   "by_state": {
-    "absent": 55,
-    "invalidated": 23,
-    "forming": 56,
-    "breakout_confirmed": 32,
-    "breakout_failed": 3,
-    "setup": 16,
-    "candidate": 3,
+    "absent": 57,
+    "invalidated": 16,
+    "forming": 62,
+    "candidate": 10,
+    "breakout_confirmed": 33,
+    "setup": 14,
     "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 51,
-      "bull_flag": 36,
+      "double_bottom": 56,
+      "bull_flag": 35,
       "vcp": 59,
-      "ascending_triangle": 12,
+      "ascending_triangle": 13,
       "base_on_base": 7,
-      "cup_with_handle": 6,
       "breakout_retest_hold": 13,
+      "cup_with_handle": 6,
       "high_tight_pullback": 3,
       "inverse_head_shoulders": 1
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "failed": 1
+      "invalidated": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -46,34 +45,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "MU",
+      "ticker": "TSM",
       "pattern": "breakout_retest_hold",
-      "score": 66.69,
-      "state": "breakout_confirmed"
+      "score": 65.43,
+      "state": "setup"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 64.62,
+      "state": "setup"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 64.29,
+      "state": "candidate"
     },
     {
       "ticker": "INTC",
       "pattern": "high_tight_pullback",
-      "score": 62.97,
+      "score": 64.11,
       "state": "candidate"
-    },
-    {
-      "ticker": "LRCX",
-      "pattern": "double_bottom",
-      "score": 62.56,
-      "state": "invalidated"
-    },
-    {
-      "ticker": "TSM",
-      "pattern": "breakout_retest_hold",
-      "score": 62.26,
-      "state": "setup"
     },
     {
       "ticker": "INTC",
       "pattern": "double_bottom",
-      "score": 62.21,
-      "state": "breakout_failed"
+      "score": 63.48,
+      "state": "candidate"
     }
   ]
 }
