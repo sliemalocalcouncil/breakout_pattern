@@ -1,6 +1,6 @@
 {
-  "run_id": "20260429T200658Z-7847a6",
-  "asof": "2026-04-29T20:06:58.282601+00:00",
+  "run_id": "20260429T213718Z-fbb3f1",
+  "asof": "2026-04-29T21:37:18.090416+00:00",
   "n_signals": 184,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -15,13 +15,13 @@
     "inverse_head_shoulders": 2
   },
   "by_state": {
-    "absent": 68,
-    "invalidated": 20,
+    "absent": 69,
+    "invalidated": 19,
     "candidate": 11,
-    "retest_hold": 3,
+    "setup": 7,
     "forming": 42,
-    "breakout_confirmed": 34,
-    "setup": 6
+    "breakout_confirmed": 33,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
@@ -36,9 +36,7 @@
       "inverse_head_shoulders": 2
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "breakout": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
@@ -47,32 +45,32 @@
     {
       "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 67.24,
-      "state": "candidate"
-    },
-    {
-      "ticker": "DELL",
-      "pattern": "double_bottom",
-      "score": 65.82,
+      "score": 67.38,
       "state": "candidate"
     },
     {
       "ticker": "MU",
       "pattern": "bull_flag",
-      "score": 65.35,
+      "score": 65.96,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 65.93,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 64.68,
       "state": "candidate"
     },
     {
       "ticker": "INTC",
       "pattern": "double_bottom",
-      "score": 63.66,
+      "score": 63.98,
       "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "AMD",
-      "pattern": "double_bottom",
-      "score": 63.4,
-      "state": "candidate"
     }
   ]
 }

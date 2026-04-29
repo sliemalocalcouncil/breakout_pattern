@@ -11,7 +11,7 @@
   },
   "ACN::vcp": {
     "invalid_below": 171.2324,
-    "state": "forming",
+    "state": "absent",
     "trigger": 199.65
   },
   "ADI::breakout_retest_hold": {
@@ -238,7 +238,7 @@
   },
   "ASML::double_bottom": {
     "invalid_below": 1344.332925,
-    "state": "absent",
+    "state": "forming",
     "trigger": 1480.17
   },
   "ASML::vcp": {
@@ -312,7 +312,7 @@
   },
   "BA::ascending_triangle": {
     "invalid_below": 223.66395,
-    "state": "invalidated",
+    "state": "absent",
     "trigger": 236.45
   },
   "BA::breakout_retest_hold": {
@@ -521,7 +521,7 @@
   "GD::breakout_retest_hold": {
     "invalid_below": 332.07579899999996,
     "monitored_until": "2026-05-06T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 337.08
   },
   "GD::bull_flag": {
@@ -1171,7 +1171,7 @@
   "RKLB::vcp": {
     "invalid_below": 55.29002,
     "monitored_until": "2026-05-06T20:00:00+00:00",
-    "state": "retest_hold",
+    "state": "setup",
     "trigger": 75.0599
   },
   "RTX::base_on_base": {
