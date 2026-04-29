@@ -1,81 +1,77 @@
 {
-  "run_id": "20260429T155232Z-dac5ae",
-  "asof": "2026-04-29T15:52:32.524483+00:00",
-  "n_signals": 188,
+  "run_id": "20260429T171802Z-75c067",
+  "asof": "2026-04-29T17:18:02.790738+00:00",
+  "n_signals": 183,
   "n_alerts_eligible": 0,
   "by_pattern": {
     "double_bottom": 56,
-    "bull_flag": 33,
+    "bull_flag": 32,
     "vcp": 59,
-    "ascending_triangle": 13,
+    "ascending_triangle": 14,
     "base_on_base": 6,
+    "breakout_retest_hold": 7,
     "cup_with_handle": 7,
-    "breakout_retest_hold": 12,
     "high_tight_pullback": 1,
     "inverse_head_shoulders": 1
   },
   "by_state": {
-    "absent": 55,
-    "invalidated": 31,
-    "setup": 7,
-    "retest_hold": 4,
-    "forming": 47,
-    "breakout_confirmed": 35,
-    "candidate": 8,
-    "breakout_failed": 1
+    "absent": 59,
+    "invalidated": 32,
+    "forming": 46,
+    "retest_hold": 3,
+    "breakout_confirmed": 31,
+    "breakout_failed": 3,
+    "setup": 5,
+    "candidate": 4
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 56,
-      "bull_flag": 33,
+      "bull_flag": 32,
       "vcp": 59,
-      "ascending_triangle": 13,
+      "ascending_triangle": 14,
       "base_on_base": 6,
+      "breakout_retest_hold": 7,
       "cup_with_handle": 7,
       "high_tight_pullback": 1,
-      "breakout_retest_hold": 9,
       "inverse_head_shoulders": 1
     },
-    "active_monitor_events": 3,
-    "alerts_by_type": {
-      "invalidated": 11,
-      "breakout": 1,
-      "retest": 1
-    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "TSM",
-      "pattern": "breakout_retest_hold",
-      "score": 66.15,
-      "state": "setup"
-    },
-    {
       "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 65.55,
+      "score": 64.82,
       "state": "candidate"
     },
     {
-      "ticker": "MU",
-      "pattern": "bull_flag",
-      "score": 64.23,
-      "state": "candidate"
-    },
-    {
-      "ticker": "AVGO",
+      "ticker": "TSM",
       "pattern": "breakout_retest_hold",
-      "score": 64.02,
+      "score": 64.36,
       "state": "setup"
     },
     {
       "ticker": "INTC",
       "pattern": "double_bottom",
-      "score": 63.73,
+      "score": 62.88,
       "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 62.34,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "bull_flag",
+      "score": 61.96,
+      "state": "candidate"
     }
   ]
 }
