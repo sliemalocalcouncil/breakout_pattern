@@ -1,0 +1,81 @@
+{
+  "run_id": "20260429T185340Z-7fa8ef",
+  "asof": "2026-04-29T18:53:40.691409+00:00",
+  "n_signals": 183,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 52,
+    "bull_flag": 32,
+    "vcp": 59,
+    "ascending_triangle": 15,
+    "base_on_base": 6,
+    "cup_with_handle": 7,
+    "breakout_retest_hold": 9,
+    "high_tight_pullback": 1,
+    "inverse_head_shoulders": 2
+  },
+  "by_state": {
+    "absent": 67,
+    "invalidated": 20,
+    "forming": 47,
+    "retest_hold": 3,
+    "breakout_confirmed": 31,
+    "breakout_failed": 1,
+    "setup": 8,
+    "candidate": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 52,
+      "bull_flag": 32,
+      "vcp": 59,
+      "ascending_triangle": 15,
+      "base_on_base": 6,
+      "cup_with_handle": 7,
+      "breakout_retest_hold": 9,
+      "high_tight_pullback": 1,
+      "inverse_head_shoulders": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "retest": 1,
+      "breakout": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 64.47,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "bull_flag",
+      "score": 62.06,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 61.9,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "double_bottom",
+      "score": 61.64,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 61.33,
+      "state": "candidate"
+    }
+  ]
+}
