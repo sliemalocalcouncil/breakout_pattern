@@ -1,0 +1,76 @@
+{
+  "run_id": "20260430T213111Z-9e35bf",
+  "asof": "2026-04-30T21:31:11.101547+00:00",
+  "n_signals": 178,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 51,
+    "bull_flag": 30,
+    "vcp": 59,
+    "ascending_triangle": 13,
+    "base_on_base": 6,
+    "breakout_retest_hold": 6,
+    "cup_with_handle": 7,
+    "inverse_head_shoulders": 3,
+    "high_tight_pullback": 3
+  },
+  "by_state": {
+    "forming": 40,
+    "absent": 66,
+    "invalidated": 12,
+    "setup": 18,
+    "breakout_confirmed": 35,
+    "retest_hold": 2,
+    "candidate": 5
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 51,
+      "bull_flag": 30,
+      "vcp": 59,
+      "ascending_triangle": 13,
+      "base_on_base": 6,
+      "breakout_retest_hold": 6,
+      "cup_with_handle": 7,
+      "inverse_head_shoulders": 3,
+      "high_tight_pullback": 3
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "INTC",
+      "pattern": "high_tight_pullback",
+      "score": 68.11,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 68.08,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "breakout_retest_hold",
+      "score": 67.92,
+      "state": "setup"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 64.85,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 62.25,
+      "state": "candidate"
+    }
+  ]
+}
