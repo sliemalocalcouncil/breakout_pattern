@@ -1,81 +1,75 @@
 {
-  "run_id": "20260430T170918Z-683252",
-  "asof": "2026-04-30T17:09:18.714202+00:00",
+  "run_id": "20260430T185033Z-1992ab",
+  "asof": "2026-04-30T18:50:33.755120+00:00",
   "n_signals": 178,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 52,
-    "bull_flag": 29,
+    "double_bottom": 51,
+    "bull_flag": 30,
     "vcp": 59,
-    "ascending_triangle": 14,
-    "base_on_base": 5,
-    "breakout_retest_hold": 8,
+    "ascending_triangle": 13,
+    "base_on_base": 6,
+    "breakout_retest_hold": 7,
     "cup_with_handle": 7,
     "inverse_head_shoulders": 3,
-    "high_tight_pullback": 1
+    "high_tight_pullback": 2
   },
   "by_state": {
-    "forming": 43,
-    "absent": 63,
-    "invalidated": 17,
-    "setup": 13,
-    "breakout_confirmed": 36,
-    "candidate": 4,
-    "retest_hold": 1,
-    "breakout_failed": 1
+    "forming": 44,
+    "absent": 64,
+    "invalidated": 12,
+    "setup": 18,
+    "breakout_confirmed": 35,
+    "candidate": 3,
+    "retest_hold": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 52,
-      "bull_flag": 29,
+      "double_bottom": 51,
+      "bull_flag": 30,
       "vcp": 59,
-      "ascending_triangle": 14,
-      "base_on_base": 5,
+      "ascending_triangle": 13,
+      "base_on_base": 6,
       "breakout_retest_hold": 7,
       "cup_with_handle": 7,
       "inverse_head_shoulders": 3,
-      "high_tight_pullback": 1
+      "high_tight_pullback": 2
     },
-    "active_monitor_events": 1,
-    "alerts_by_type": {
-      "retest": 1,
-      "breakout": 1,
-      "failed": 1,
-      "invalidated": 1
-    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "DELL",
+      "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 64.32,
+      "score": 67.69,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INTC",
+      "pattern": "high_tight_pullback",
+      "score": 66.78,
       "state": "candidate"
     },
     {
       "ticker": "MU",
-      "pattern": "double_bottom",
-      "score": 63.37,
-      "state": "candidate"
-    },
-    {
-      "ticker": "CCJ",
-      "pattern": "vcp",
-      "score": 61.23,
-      "state": "breakout_confirmed"
+      "pattern": "breakout_retest_hold",
+      "score": 66.26,
+      "state": "retest_hold"
     },
     {
       "ticker": "AMD",
       "pattern": "double_bottom",
-      "score": 60.51,
-      "state": "candidate"
+      "score": 60.85,
+      "state": "setup"
     },
     {
-      "ticker": "ARM",
+      "ticker": "DELL",
       "pattern": "double_bottom",
-      "score": 60.48,
+      "score": 60.77,
       "state": "candidate"
     }
   ]
