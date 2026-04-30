@@ -11,7 +11,7 @@
   },
   "ACN::vcp": {
     "invalid_below": 171.2324,
-    "state": "forming",
+    "state": "absent",
     "trigger": 199.65
   },
   "ADI::breakout_retest_hold": {
@@ -132,7 +132,7 @@
     "invalid_below": 241.684525,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 265.77
+    "trigger": 273.88
   },
   "AMZN::vcp": {
     "invalid_below": 196.1529,
@@ -806,7 +806,7 @@
     "last_alert_score": 42.56,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 230.49
   },
   "LEU::vcp": {
@@ -864,7 +864,7 @@
     "last_alert_at": "2026-04-28T16:07:57.523846+00:00",
     "last_alert_score": 62.67,
     "last_alert_type": "invalidated",
-    "state": "forming",
+    "state": "candidate",
     "trigger": 275.84
   },
   "LRCX::vcp": {
@@ -992,7 +992,7 @@
   "NNE::vcp": {
     "invalid_below": 19.581799999999998,
     "monitored_until": "2026-05-07T20:00:00+00:00",
-    "state": "setup",
+    "state": "breakout_confirmed",
     "trigger": 22.59
   },
   "NOC::double_bottom": {
@@ -1102,7 +1102,7 @@
   },
   "ORCL::double_bottom": {
     "invalid_below": 157.92505,
-    "state": "forming",
+    "state": "absent",
     "trigger": 173.55
   },
   "ORCL::vcp": {
@@ -1152,9 +1152,9 @@
     "trigger": 138.5
   },
   "QCOM::high_tight_pullback": {
-    "invalid_below": 144.84425000000002,
+    "invalid_below": 174.95579850000001,
     "state": "forming",
-    "trigger": 161.0
+    "trigger": 186.8899
   },
   "QCOM::vcp": {
     "invalid_below": 130.06925,
@@ -1224,8 +1224,8 @@
     "last_alert_at": "2026-04-29T15:52:47.162358+00:00",
     "last_alert_score": 55.6,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-05-07T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "candidate",
     "trigger": 82.48
   },
   "RKLB::vcp": {
@@ -1310,7 +1310,7 @@
     "trigger": 195.75
   },
   "TMUS::bull_flag": {
-    "invalid_below": 192.075,
+    "invalid_below": 191.2476,
     "state": "forming",
     "trigger": 200.63
   },
@@ -1368,7 +1368,7 @@
   "TXN::double_bottom": {
     "invalid_below": 262.3428315,
     "monitored_until": "2026-05-07T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 278.395
   },
   "TXN::high_tight_pullback": {
