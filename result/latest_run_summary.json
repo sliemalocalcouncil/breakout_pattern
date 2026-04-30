@@ -1,42 +1,45 @@
 {
-  "run_id": "20260429T213718Z-fbb3f1",
-  "asof": "2026-04-29T21:37:18.090416+00:00",
-  "n_signals": 184,
+  "run_id": "20260430T154351Z-963046",
+  "asof": "2026-04-30T15:43:51.442287+00:00",
+  "n_signals": 178,
   "n_alerts_eligible": 0,
   "by_pattern": {
     "double_bottom": 52,
-    "bull_flag": 34,
+    "bull_flag": 28,
     "vcp": 59,
     "ascending_triangle": 14,
-    "base_on_base": 6,
+    "base_on_base": 5,
+    "breakout_retest_hold": 10,
     "cup_with_handle": 7,
-    "breakout_retest_hold": 9,
     "high_tight_pullback": 1,
     "inverse_head_shoulders": 2
   },
   "by_state": {
-    "absent": 69,
-    "invalidated": 19,
-    "candidate": 11,
-    "setup": 7,
-    "forming": 42,
-    "breakout_confirmed": 33,
-    "retest_hold": 3
+    "forming": 45,
+    "absent": 60,
+    "invalidated": 17,
+    "setup": 11,
+    "candidate": 6,
+    "breakout_confirmed": 38,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 52,
-      "bull_flag": 34,
+      "bull_flag": 28,
       "vcp": 59,
       "ascending_triangle": 14,
-      "base_on_base": 6,
-      "cup_with_handle": 7,
+      "base_on_base": 5,
       "breakout_retest_hold": 9,
+      "cup_with_handle": 7,
       "high_tight_pullback": 1,
       "inverse_head_shoulders": 2
     },
-    "active_monitor_events": 0,
-    "alerts_by_type": {},
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "breakout": 6,
+      "invalidated": 1
+    },
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
@@ -45,32 +48,32 @@
     {
       "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 67.38,
-      "state": "candidate"
-    },
-    {
-      "ticker": "MU",
-      "pattern": "bull_flag",
-      "score": 65.96,
+      "score": 65.26,
       "state": "candidate"
     },
     {
       "ticker": "DELL",
       "pattern": "double_bottom",
-      "score": 65.93,
+      "score": 64.57,
       "state": "candidate"
     },
     {
-      "ticker": "LRCX",
-      "pattern": "double_bottom",
-      "score": 64.68,
-      "state": "candidate"
-    },
-    {
-      "ticker": "INTC",
-      "pattern": "double_bottom",
-      "score": 63.98,
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 62.39,
       "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "double_bottom",
+      "score": 62.3,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "double_bottom",
+      "score": 61.19,
+      "state": "candidate"
     }
   ]
 }
