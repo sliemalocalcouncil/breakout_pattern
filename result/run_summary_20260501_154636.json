@@ -1,0 +1,81 @@
+{
+  "run_id": "20260501T154636Z-a87578",
+  "asof": "2026-05-01T15:46:36.172504+00:00",
+  "n_signals": 170,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 51,
+    "bull_flag": 25,
+    "vcp": 59,
+    "ascending_triangle": 13,
+    "breakout_retest_hold": 6,
+    "base_on_base": 5,
+    "cup_with_handle": 7,
+    "inverse_head_shoulders": 3,
+    "high_tight_pullback": 1
+  },
+  "by_state": {
+    "forming": 44,
+    "absent": 70,
+    "setup": 3,
+    "invalidated": 9,
+    "candidate": 2,
+    "breakout_confirmed": 33,
+    "retest_hold": 7,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 51,
+      "bull_flag": 25,
+      "vcp": 59,
+      "ascending_triangle": 13,
+      "breakout_retest_hold": 6,
+      "base_on_base": 5,
+      "cup_with_handle": 7,
+      "inverse_head_shoulders": 3,
+      "high_tight_pullback": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "failed": 1,
+      "retest": 3,
+      "breakout": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ADI",
+      "pattern": "breakout_retest_hold",
+      "score": 71.47,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 69.31,
+      "state": "breakout_failed"
+    },
+    {
+      "ticker": "IONQ",
+      "pattern": "double_bottom",
+      "score": 62.77,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "double_bottom",
+      "score": 61.95,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "double_bottom",
+      "score": 61.52,
+      "state": "retest_hold"
+    }
+  ]
+}
