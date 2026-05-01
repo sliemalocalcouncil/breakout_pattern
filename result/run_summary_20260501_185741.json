@@ -1,0 +1,81 @@
+{
+  "run_id": "20260501T185741Z-29b79d",
+  "asof": "2026-05-01T18:57:41.618131+00:00",
+  "n_signals": 197,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 52,
+    "bull_flag": 30,
+    "vcp": 59,
+    "ascending_triangle": 13,
+    "breakout_retest_hold": 23,
+    "base_on_base": 5,
+    "cup_with_handle": 7,
+    "inverse_head_shoulders": 7,
+    "high_tight_pullback": 1
+  },
+  "by_state": {
+    "forming": 56,
+    "absent": 69,
+    "setup": 23,
+    "invalidated": 10,
+    "candidate": 6,
+    "breakout_confirmed": 28,
+    "retest_hold": 3,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 52,
+      "bull_flag": 30,
+      "vcp": 59,
+      "ascending_triangle": 13,
+      "breakout_retest_hold": 23,
+      "base_on_base": 5,
+      "cup_with_handle": 7,
+      "inverse_head_shoulders": 7,
+      "high_tight_pullback": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 1,
+      "breakout": 1,
+      "failed": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MU",
+      "pattern": "breakout_retest_hold",
+      "score": 72.96,
+      "state": "setup"
+    },
+    {
+      "ticker": "ADI",
+      "pattern": "breakout_retest_hold",
+      "score": 70.75,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "breakout_retest_hold",
+      "score": 70.67,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 69.17,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 68.68,
+      "state": "setup"
+    }
+  ]
+}
