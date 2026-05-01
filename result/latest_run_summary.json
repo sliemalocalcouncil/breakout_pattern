@@ -1,36 +1,35 @@
 {
-  "run_id": "20260501T154636Z-a87578",
-  "asof": "2026-05-01T15:46:36.172504+00:00",
+  "run_id": "20260501T164427Z-cfff46",
+  "asof": "2026-05-01T16:44:27.077772+00:00",
   "n_signals": 170,
   "n_alerts_eligible": 1,
   "by_pattern": {
     "double_bottom": 51,
-    "bull_flag": 25,
+    "bull_flag": 24,
     "vcp": 59,
     "ascending_triangle": 13,
-    "breakout_retest_hold": 6,
+    "breakout_retest_hold": 7,
     "base_on_base": 5,
     "cup_with_handle": 7,
     "inverse_head_shoulders": 3,
     "high_tight_pullback": 1
   },
   "by_state": {
-    "forming": 44,
-    "absent": 70,
-    "setup": 3,
-    "invalidated": 9,
+    "forming": 46,
+    "absent": 69,
+    "setup": 6,
+    "invalidated": 10,
     "candidate": 2,
-    "breakout_confirmed": 33,
-    "retest_hold": 7,
-    "breakout_failed": 2
+    "breakout_confirmed": 32,
+    "retest_hold": 5
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 51,
-      "bull_flag": 25,
+      "bull_flag": 24,
       "vcp": 59,
       "ascending_triangle": 13,
-      "breakout_retest_hold": 6,
+      "breakout_retest_hold": 7,
       "base_on_base": 5,
       "cup_with_handle": 7,
       "inverse_head_shoulders": 3,
@@ -38,8 +37,6 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "failed": 1,
-      "retest": 3,
       "breakout": 1
     },
     "tickers_processed": 63,
@@ -50,32 +47,32 @@
     {
       "ticker": "ADI",
       "pattern": "breakout_retest_hold",
-      "score": 71.47,
+      "score": 70.36,
       "state": "retest_hold"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 69.11,
+      "state": "setup"
     },
     {
       "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 69.31,
-      "state": "breakout_failed"
-    },
-    {
-      "ticker": "IONQ",
-      "pattern": "double_bottom",
-      "score": 62.77,
-      "state": "breakout_confirmed"
+      "score": 66.94,
+      "state": "candidate"
     },
     {
       "ticker": "RKLB",
       "pattern": "double_bottom",
-      "score": 61.95,
+      "score": 61.47,
       "state": "candidate"
     },
     {
-      "ticker": "AMD",
+      "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 61.52,
-      "state": "retest_hold"
+      "score": 61.04,
+      "state": "breakout_confirmed"
     }
   ]
 }
