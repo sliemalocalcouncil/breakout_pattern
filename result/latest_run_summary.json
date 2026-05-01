@@ -1,6 +1,6 @@
 {
-  "run_id": "20260501T200243Z-7dda62",
-  "asof": "2026-05-01T20:02:43.331492+00:00",
+  "run_id": "20260501T211144Z-4a9f06",
+  "asof": "2026-05-01T21:11:44.114042+00:00",
   "n_signals": 193,
   "n_alerts_eligible": 4,
   "by_pattern": {
@@ -15,13 +15,14 @@
     "high_tight_pullback": 2
   },
   "by_state": {
-    "forming": 54,
-    "absent": 65,
-    "setup": 22,
+    "forming": 55,
+    "absent": 66,
+    "setup": 20,
     "invalidated": 10,
     "candidate": 8,
-    "breakout_confirmed": 31,
-    "retest_hold": 3
+    "breakout_confirmed": 28,
+    "retest_hold": 5,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
@@ -37,7 +38,8 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "breakout": 3
+      "retest": 2,
+      "failed": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -47,31 +49,31 @@
     {
       "ticker": "DELL",
       "pattern": "breakout_retest_hold",
-      "score": 73.63,
+      "score": 73.9,
       "state": "retest_hold"
     },
     {
       "ticker": "MU",
       "pattern": "breakout_retest_hold",
-      "score": 73.55,
+      "score": 73.71,
       "state": "setup"
     },
     {
       "ticker": "CW",
       "pattern": "breakout_retest_hold",
-      "score": 71.14,
-      "state": "breakout_confirmed"
+      "score": 71.38,
+      "state": "retest_hold"
     },
     {
       "ticker": "ADI",
       "pattern": "breakout_retest_hold",
-      "score": 70.83,
+      "score": 70.91,
       "state": "retest_hold"
     },
     {
       "ticker": "TSM",
       "pattern": "breakout_retest_hold",
-      "score": 69.92,
+      "score": 69.66,
       "state": "candidate"
     }
   ]

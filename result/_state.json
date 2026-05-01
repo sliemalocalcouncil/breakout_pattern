@@ -166,11 +166,11 @@
   },
   "ANET::breakout_retest_hold": {
     "invalid_below": 172.45305,
-    "last_alert_at": "2026-05-01T20:05:33.541718+00:00",
-    "last_alert_score": 68.13,
-    "last_alert_type": "breakout",
-    "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "last_alert_at": "2026-05-01T21:14:02.841028+00:00",
+    "last_alert_score": 68.41,
+    "last_alert_type": "failed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 172.9379
   },
   "ANET::bull_flag": {
@@ -476,11 +476,11 @@
   },
   "CRM::breakout_retest_hold": {
     "invalid_below": 178.101,
-    "last_alert_at": "2026-05-01T20:05:31.157918+00:00",
-    "last_alert_score": 66.34,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-01T21:14:00.645621+00:00",
+    "last_alert_score": 66.46,
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 181.7835
   },
   "CRM::bull_flag": {
@@ -528,11 +528,11 @@
   },
   "CW::breakout_retest_hold": {
     "invalid_below": 698.049,
-    "last_alert_at": "2026-05-01T20:03:51.991722+00:00",
-    "last_alert_score": 71.14,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-01T21:12:36.721801+00:00",
+    "last_alert_score": 71.38,
+    "last_alert_type": "retest",
     "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 711.74
   },
   "CW::cup_with_handle": {
@@ -1509,8 +1509,8 @@
   },
   "TXN::double_bottom": {
     "invalid_below": 267.92985,
-    "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 281.4699
   },
   "TXN::high_tight_pullback": {
@@ -1566,8 +1566,8 @@
   },
   "UUUU::bull_flag": {
     "invalid_below": 20.448600000000003,
-    "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "absent",
     "trigger": 21.68
   },
   "UUUU::double_bottom": {
