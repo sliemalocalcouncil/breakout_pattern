@@ -1,0 +1,78 @@
+{
+  "run_id": "20260505T185124Z-ba52d3",
+  "asof": "2026-05-05T18:51:24.356313+00:00",
+  "n_signals": 208,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 57,
+    "vcp": 59,
+    "ascending_triangle": 25,
+    "breakout_retest_hold": 17,
+    "bull_flag": 20,
+    "base_on_base": 5,
+    "high_tight_pullback": 12,
+    "cup_with_handle": 7,
+    "inverse_head_shoulders": 6
+  },
+  "by_state": {
+    "forming": 55,
+    "absent": 67,
+    "setup": 22,
+    "invalidated": 21,
+    "candidate": 17,
+    "retest_hold": 10,
+    "breakout_confirmed": 16
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 57,
+      "vcp": 59,
+      "ascending_triangle": 25,
+      "breakout_retest_hold": 17,
+      "bull_flag": 20,
+      "base_on_base": 5,
+      "high_tight_pullback": 12,
+      "cup_with_handle": 7,
+      "inverse_head_shoulders": 6
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 3
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "DELL",
+      "pattern": "breakout_retest_hold",
+      "score": 69.03,
+      "state": "setup"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "high_tight_pullback",
+      "score": 68.06,
+      "state": "candidate"
+    },
+    {
+      "ticker": "IONQ",
+      "pattern": "double_bottom",
+      "score": 67.19,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "high_tight_pullback",
+      "score": 65.92,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "double_bottom",
+      "score": 63.74,
+      "state": "candidate"
+    }
+  ]
+}

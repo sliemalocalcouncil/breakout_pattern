@@ -1,46 +1,43 @@
 {
-  "run_id": "20260505T170549Z-c9c10d",
-  "asof": "2026-05-05T17:05:49.885051+00:00",
-  "n_signals": 189,
-  "n_alerts_eligible": 1,
+  "run_id": "20260505T185124Z-ba52d3",
+  "asof": "2026-05-05T18:51:24.356313+00:00",
+  "n_signals": 208,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 54,
+    "double_bottom": 57,
     "vcp": 59,
-    "ascending_triangle": 22,
-    "bull_flag": 12,
+    "ascending_triangle": 25,
+    "breakout_retest_hold": 17,
+    "bull_flag": 20,
     "base_on_base": 5,
+    "high_tight_pullback": 12,
     "cup_with_handle": 7,
-    "inverse_head_shoulders": 6,
-    "breakout_retest_hold": 14,
-    "high_tight_pullback": 10
+    "inverse_head_shoulders": 6
   },
   "by_state": {
+    "forming": 55,
     "absent": 67,
-    "forming": 46,
-    "invalidated": 20,
-    "candidate": 10,
-    "setup": 20,
-    "breakout_confirmed": 22,
-    "retest_hold": 4
+    "setup": 22,
+    "invalidated": 21,
+    "candidate": 17,
+    "retest_hold": 10,
+    "breakout_confirmed": 16
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 54,
+      "double_bottom": 57,
       "vcp": 59,
-      "ascending_triangle": 22,
-      "bull_flag": 12,
+      "ascending_triangle": 25,
+      "breakout_retest_hold": 17,
+      "bull_flag": 20,
       "base_on_base": 5,
+      "high_tight_pullback": 12,
       "cup_with_handle": 7,
-      "inverse_head_shoulders": 6,
-      "high_tight_pullback": 10,
-      "breakout_retest_hold": 12
+      "inverse_head_shoulders": 6
     },
-    "active_monitor_events": 2,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "invalidated": 3,
-      "breakout": 2,
-      "retest": 1,
-      "setup": 1
+      "retest": 3
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -48,34 +45,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "QBTS",
+      "ticker": "DELL",
       "pattern": "breakout_retest_hold",
-      "score": 70.43,
+      "score": 69.03,
       "state": "setup"
     },
     {
-      "ticker": "ANET",
-      "pattern": "breakout_retest_hold",
-      "score": 65.98,
-      "state": "setup"
-    },
-    {
-      "ticker": "QBTS",
+      "ticker": "MU",
       "pattern": "high_tight_pullback",
-      "score": 65.58,
+      "score": 68.06,
       "state": "candidate"
     },
     {
-      "ticker": "RKLB",
+      "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 65.55,
+      "score": 67.19,
       "state": "candidate"
     },
     {
-      "ticker": "LRCX",
+      "ticker": "ORCL",
+      "pattern": "high_tight_pullback",
+      "score": 65.92,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
       "pattern": "double_bottom",
-      "score": 65.33,
-      "state": "retest_hold"
+      "score": 63.74,
+      "state": "candidate"
     }
   ]
 }
