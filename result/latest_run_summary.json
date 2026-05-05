@@ -1,6 +1,6 @@
 {
-  "run_id": "20260505T200220Z-632c8a",
-  "asof": "2026-05-05T20:02:20.003570+00:00",
+  "run_id": "20260505T213227Z-8b59a0",
+  "asof": "2026-05-05T21:32:27.204189+00:00",
   "n_signals": 205,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -15,13 +15,13 @@
     "high_tight_pullback": 11
   },
   "by_state": {
-    "forming": 51,
-    "absent": 74,
+    "absent": 75,
+    "forming": 50,
     "invalidated": 20,
     "candidate": 21,
     "setup": 21,
-    "breakout_confirmed": 16,
-    "retest_hold": 2
+    "breakout_confirmed": 15,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
@@ -36,43 +36,41 @@
       "high_tight_pullback": 11
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "breakout": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "RKLB",
-      "pattern": "double_bottom",
-      "score": 68.9,
-      "state": "candidate"
-    },
-    {
       "ticker": "MU",
       "pattern": "high_tight_pullback",
-      "score": 68.82,
+      "score": 69.21,
       "state": "candidate"
     },
     {
       "ticker": "LRCX",
       "pattern": "breakout_retest_hold",
-      "score": 67.99,
+      "score": 69.19,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "double_bottom",
+      "score": 69.16,
       "state": "candidate"
     },
     {
       "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 67.98,
+      "score": 68.65,
       "state": "candidate"
     },
     {
-      "ticker": "ORCL",
-      "pattern": "ascending_triangle",
-      "score": 65.35,
-      "state": "setup"
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 65.54,
+      "state": "candidate"
     }
   ]
 }
