@@ -1,45 +1,43 @@
 {
-  "run_id": "20260506T172714Z-56d24d",
-  "asof": "2026-05-06T17:27:14.446993+00:00",
-  "n_signals": 173,
-  "n_alerts_eligible": 0,
+  "run_id": "20260506T190945Z-4b4fa5",
+  "asof": "2026-05-06T19:09:45.618614+00:00",
+  "n_signals": 185,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "double_bottom": 56,
+    "double_bottom": 54,
     "vcp": 59,
-    "ascending_triangle": 26,
-    "bull_flag": 11,
-    "breakout_retest_hold": 4,
+    "ascending_triangle": 21,
+    "bull_flag": 13,
+    "breakout_retest_hold": 16,
     "base_on_base": 5,
     "cup_with_handle": 6,
     "inverse_head_shoulders": 5,
-    "high_tight_pullback": 1
+    "high_tight_pullback": 6
   },
   "by_state": {
-    "absent": 48,
-    "forming": 28,
-    "setup": 30,
-    "invalidated": 18,
-    "breakout_confirmed": 43,
-    "breakout_failed": 1,
-    "candidate": 3,
-    "retest_hold": 2
+    "absent": 51,
+    "forming": 31,
+    "setup": 37,
+    "invalidated": 14,
+    "breakout_confirmed": 47,
+    "candidate": 5
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 56,
+      "double_bottom": 54,
       "vcp": 59,
-      "ascending_triangle": 26,
-      "bull_flag": 11,
-      "breakout_retest_hold": 4,
+      "ascending_triangle": 21,
+      "bull_flag": 13,
+      "breakout_retest_hold": 16,
       "base_on_base": 5,
       "cup_with_handle": 6,
       "inverse_head_shoulders": 5,
-      "high_tight_pullback": 1
+      "high_tight_pullback": 6
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
       "breakout": 1,
-      "invalidated": 1
+      "setup": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -47,34 +45,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "UUUU",
-      "pattern": "double_bottom",
-      "score": 65.77,
+      "ticker": "AMAT",
+      "pattern": "breakout_retest_hold",
+      "score": 71.16,
       "state": "setup"
     },
     {
-      "ticker": "OKLO",
-      "pattern": "inverse_head_shoulders",
-      "score": 65.01,
+      "ticker": "MRVL",
+      "pattern": "breakout_retest_hold",
+      "score": 67.32,
       "state": "breakout_confirmed"
     },
     {
       "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 64.86,
+      "score": 66.59,
       "state": "breakout_confirmed"
     },
     {
-      "ticker": "ARM",
+      "ticker": "UUUU",
       "pattern": "double_bottom",
-      "score": 62.48,
-      "state": "candidate"
+      "score": 66.56,
+      "state": "setup"
     },
     {
-      "ticker": "NXE",
-      "pattern": "double_bottom",
-      "score": 62.33,
-      "state": "candidate"
+      "ticker": "MU",
+      "pattern": "breakout_retest_hold",
+      "score": 65.94,
+      "state": "setup"
     }
   ]
 }
