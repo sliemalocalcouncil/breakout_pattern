@@ -1,0 +1,82 @@
+{
+  "run_id": "20260507T174823Z-8bd8f9",
+  "asof": "2026-05-07T17:48:23.431633+00:00",
+  "n_signals": 195,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 53,
+    "vcp": 59,
+    "ascending_triangle": 16,
+    "bull_flag": 19,
+    "breakout_retest_hold": 28,
+    "base_on_base": 6,
+    "cup_with_handle": 6,
+    "inverse_head_shoulders": 2,
+    "high_tight_pullback": 6
+  },
+  "by_state": {
+    "absent": 71,
+    "forming": 41,
+    "setup": 24,
+    "invalidated": 16,
+    "breakout_confirmed": 28,
+    "breakout_failed": 7,
+    "candidate": 4,
+    "retest_hold": 4
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 53,
+      "vcp": 59,
+      "ascending_triangle": 15,
+      "bull_flag": 18,
+      "breakout_retest_hold": 26,
+      "base_on_base": 6,
+      "cup_with_handle": 6,
+      "inverse_head_shoulders": 2,
+      "high_tight_pullback": 6
+    },
+    "active_monitor_events": 4,
+    "alerts_by_type": {
+      "breakout": 2,
+      "invalidated": 3,
+      "failed": 3,
+      "retest": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "UUUU",
+      "pattern": "double_bottom",
+      "score": 66.6,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "IONQ",
+      "pattern": "double_bottom",
+      "score": 63.19,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RGTI",
+      "pattern": "double_bottom",
+      "score": 62.72,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 62.7,
+      "state": "setup"
+    },
+    {
+      "ticker": "UEC",
+      "pattern": "ascending_triangle",
+      "score": 61.81,
+      "state": "breakout_failed"
+    }
+  ]
+}
