@@ -1,6 +1,6 @@
 {
-  "run_id": "20260508T195117Z-64671e",
-  "asof": "2026-05-08T19:51:17.654677+00:00",
+  "run_id": "20260508T204648Z-c4f929",
+  "asof": "2026-05-08T20:46:48.345392+00:00",
   "n_signals": 192,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -15,14 +15,13 @@
     "inverse_head_shoulders": 1
   },
   "by_state": {
-    "absent": 76,
-    "forming": 45,
+    "absent": 73,
+    "forming": 43,
     "invalidated": 12,
-    "breakout_confirmed": 29,
-    "candidate": 7,
-    "breakout_failed": 1,
-    "setup": 20,
-    "retest_hold": 2
+    "breakout_confirmed": 31,
+    "candidate": 5,
+    "setup": 27,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
@@ -38,7 +37,7 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "breakout": 1
+      "breakout": 2
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -48,31 +47,31 @@
     {
       "ticker": "NVDA",
       "pattern": "breakout_retest_hold",
-      "score": 69.17,
+      "score": 69.52,
       "state": "setup"
     },
     {
       "ticker": "TSM",
       "pattern": "breakout_retest_hold",
-      "score": 67.01,
-      "state": "retest_hold"
+      "score": 67.81,
+      "state": "breakout_confirmed"
     },
     {
       "ticker": "CW",
       "pattern": "breakout_retest_hold",
-      "score": 66.87,
+      "score": 67.75,
       "state": "setup"
     },
     {
       "ticker": "ORCL",
       "pattern": "high_tight_pullback",
-      "score": 66.74,
+      "score": 67.03,
       "state": "candidate"
     },
     {
       "ticker": "MRVL",
       "pattern": "double_bottom",
-      "score": 65.01,
+      "score": 65.44,
       "state": "candidate"
     }
   ]
