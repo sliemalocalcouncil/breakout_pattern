@@ -1,45 +1,46 @@
 {
-  "run_id": "20260507T204630Z-f5d521",
-  "asof": "2026-05-07T20:46:30.880129+00:00",
-  "n_signals": 217,
-  "n_alerts_eligible": 1,
+  "run_id": "20260508T151352Z-0e900e",
+  "asof": "2026-05-08T15:13:52.868719+00:00",
+  "n_signals": 197,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 54,
+    "double_bottom": 51,
     "vcp": 59,
-    "ascending_triangle": 15,
-    "bull_flag": 30,
-    "breakout_retest_hold": 33,
-    "base_on_base": 6,
-    "high_tight_pullback": 12,
-    "cup_with_handle": 6,
+    "ascending_triangle": 16,
+    "bull_flag": 28,
+    "breakout_retest_hold": 25,
+    "base_on_base": 5,
+    "high_tight_pullback": 6,
+    "cup_with_handle": 5,
     "inverse_head_shoulders": 2
   },
   "by_state": {
-    "absent": 84,
-    "forming": 52,
-    "breakout_confirmed": 35,
-    "invalidated": 12,
+    "absent": 79,
+    "forming": 37,
+    "breakout_confirmed": 45,
+    "invalidated": 14,
     "candidate": 7,
-    "setup": 23,
-    "breakout_failed": 1,
-    "retest_hold": 3
+    "breakout_failed": 4,
+    "setup": 10,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 54,
+      "double_bottom": 51,
       "vcp": 59,
       "ascending_triangle": 15,
-      "bull_flag": 30,
-      "breakout_retest_hold": 33,
-      "base_on_base": 6,
-      "high_tight_pullback": 12,
-      "cup_with_handle": 6,
+      "bull_flag": 28,
+      "breakout_retest_hold": 22,
+      "base_on_base": 5,
+      "high_tight_pullback": 6,
+      "cup_with_handle": 5,
       "inverse_head_shoulders": 2
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 4,
     "alerts_by_type": {
-      "breakout": 2,
-      "setup": 1
+      "breakout": 6,
+      "failed": 4,
+      "invalidated": 2
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -47,34 +48,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "TXN",
-      "pattern": "breakout_retest_hold",
-      "score": 71.59,
-      "state": "setup"
-    },
-    {
-      "ticker": "UUUU",
-      "pattern": "double_bottom",
-      "score": 68.34,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "NVDA",
-      "pattern": "breakout_retest_hold",
-      "score": 68.32,
-      "state": "setup"
+      "ticker": "ORCL",
+      "pattern": "high_tight_pullback",
+      "score": 68.94,
+      "state": "candidate"
     },
     {
       "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 64.46,
+      "score": 65.49,
       "state": "candidate"
     },
     {
-      "ticker": "UUUU",
+      "ticker": "LRCX",
+      "pattern": "high_tight_pullback",
+      "score": 64.87,
+      "state": "candidate"
+    },
+    {
+      "ticker": "CW",
       "pattern": "breakout_retest_hold",
-      "score": 64.08,
-      "state": "breakout_confirmed"
+      "score": 64.42,
+      "state": "setup"
+    },
+    {
+      "ticker": "UUUU",
+      "pattern": "double_bottom",
+      "score": 64.25,
+      "state": "breakout_failed"
     }
   ]
 }
