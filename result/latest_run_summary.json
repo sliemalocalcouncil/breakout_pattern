@@ -1,45 +1,47 @@
 {
-  "run_id": "20260511T162449Z-d366a8",
-  "asof": "2026-05-11T16:24:49.407126+00:00",
-  "n_signals": 177,
-  "n_alerts_eligible": 1,
+  "run_id": "20260511T181514Z-b4ccde",
+  "asof": "2026-05-11T18:15:14.581081+00:00",
+  "n_signals": 184,
+  "n_alerts_eligible": 2,
   "by_pattern": {
-    "double_bottom": 49,
+    "double_bottom": 51,
     "vcp": 59,
     "ascending_triangle": 22,
-    "breakout_retest_hold": 13,
+    "breakout_retest_hold": 17,
     "base_on_base": 5,
     "high_tight_pullback": 3,
     "cup_with_handle": 6,
-    "bull_flag": 19,
+    "bull_flag": 20,
     "inverse_head_shoulders": 1
   },
   "by_state": {
-    "absent": 51,
-    "forming": 30,
-    "retest_hold": 3,
-    "setup": 29,
-    "invalidated": 12,
-    "breakout_confirmed": 43,
-    "candidate": 8,
-    "breakout_failed": 1
+    "absent": 57,
+    "forming": 31,
+    "retest_hold": 7,
+    "setup": 24,
+    "invalidated": 14,
+    "breakout_confirmed": 36,
+    "breakout_failed": 5,
+    "candidate": 10
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 49,
+      "double_bottom": 51,
       "vcp": 59,
       "ascending_triangle": 22,
-      "breakout_retest_hold": 13,
+      "breakout_retest_hold": 16,
       "base_on_base": 5,
       "high_tight_pullback": 3,
       "cup_with_handle": 6,
-      "bull_flag": 19,
+      "bull_flag": 20,
       "inverse_head_shoulders": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "retest": 3,
-      "breakout": 6
+      "setup": 1,
+      "retest": 1,
+      "failed": 1,
+      "invalidated": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -49,31 +51,31 @@
     {
       "ticker": "AVGO",
       "pattern": "breakout_retest_hold",
-      "score": 73.27,
+      "score": 73.94,
       "state": "retest_hold"
     },
     {
-      "ticker": "ORCL",
-      "pattern": "high_tight_pullback",
-      "score": 66.08,
-      "state": "candidate"
-    },
-    {
-      "ticker": "MRVL",
-      "pattern": "double_bottom",
-      "score": 65.24,
-      "state": "candidate"
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 70.49,
+      "state": "setup"
     },
     {
       "ticker": "QUBT",
       "pattern": "double_bottom",
-      "score": 64.92,
+      "score": 64.89,
       "state": "candidate"
     },
     {
       "ticker": "UUUU",
       "pattern": "double_bottom",
-      "score": 64.86,
+      "score": 64.71,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "breakout_retest_hold",
+      "score": 63.59,
       "state": "candidate"
     }
   ]
