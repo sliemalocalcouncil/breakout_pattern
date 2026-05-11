@@ -1,0 +1,78 @@
+{
+  "run_id": "20260511T214735Z-8943f1",
+  "asof": "2026-05-11T21:47:35.598517+00:00",
+  "n_signals": 190,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 52,
+    "vcp": 59,
+    "ascending_triangle": 23,
+    "breakout_retest_hold": 17,
+    "base_on_base": 5,
+    "high_tight_pullback": 7,
+    "cup_with_handle": 6,
+    "bull_flag": 20,
+    "inverse_head_shoulders": 1
+  },
+  "by_state": {
+    "absent": 55,
+    "forming": 33,
+    "retest_hold": 13,
+    "setup": 22,
+    "invalidated": 14,
+    "breakout_confirmed": 34,
+    "candidate": 19
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 52,
+      "vcp": 59,
+      "ascending_triangle": 23,
+      "breakout_retest_hold": 17,
+      "base_on_base": 5,
+      "high_tight_pullback": 7,
+      "cup_with_handle": 6,
+      "bull_flag": 20,
+      "inverse_head_shoulders": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 75.79,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "QUBT",
+      "pattern": "breakout_retest_hold",
+      "score": 71.65,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 71.55,
+      "state": "setup"
+    },
+    {
+      "ticker": "UUUU",
+      "pattern": "double_bottom",
+      "score": 69.47,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QCOM",
+      "pattern": "high_tight_pullback",
+      "score": 68.18,
+      "state": "candidate"
+    }
+  ]
+}
