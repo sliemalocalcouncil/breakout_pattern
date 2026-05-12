@@ -25,8 +25,8 @@
   },
   "ADI::ascending_triangle": {
     "invalid_below": 399.82135,
-    "monitored_until": "2026-05-19T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 420.3199
   },
   "ADI::breakout_retest_hold": {
@@ -45,8 +45,8 @@
   },
   "ADI::double_bottom": {
     "invalid_below": 387.50885,
-    "monitored_until": "2026-05-19T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 420.3199
   },
   "ADI::vcp": {
@@ -1346,7 +1346,7 @@
     "last_alert_score": 60.08,
     "last_alert_type": "retest",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 28.3
   },
   "NNE::vcp": {
@@ -1394,7 +1394,7 @@
   "NVDA::double_bottom": {
     "invalid_below": 210.68165,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 223.75
   },
   "NVDA::high_tight_pullback": {

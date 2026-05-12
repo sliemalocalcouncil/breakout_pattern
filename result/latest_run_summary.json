@@ -1,6 +1,6 @@
 {
-  "run_id": "20260512T201309Z-2acd51",
-  "asof": "2026-05-12T20:13:09.853508+00:00",
+  "run_id": "20260512T214658Z-61c5c4",
+  "asof": "2026-05-12T21:46:58.249385+00:00",
   "n_signals": 203,
   "n_alerts_eligible": 1,
   "by_pattern": {
@@ -17,11 +17,11 @@
   "by_state": {
     "forming": 52,
     "absent": 66,
-    "breakout_confirmed": 28,
+    "breakout_confirmed": 26,
     "invalidated": 18,
     "setup": 30,
-    "candidate": 8,
-    "breakout_failed": 1
+    "candidate": 9,
+    "breakout_failed": 2
   },
   "counters": {
     "detector_hits": {
@@ -36,10 +36,7 @@
       "inverse_head_shoulders": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "breakout": 1,
-      "setup": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
@@ -48,7 +45,7 @@
     {
       "ticker": "NVDA",
       "pattern": "breakout_retest_hold",
-      "score": 72.2,
+      "score": 72.44,
       "state": "setup"
     },
     {
@@ -60,19 +57,19 @@
     {
       "ticker": "OKLO",
       "pattern": "breakout_retest_hold",
-      "score": 64.14,
+      "score": 64.44,
       "state": "setup"
     },
     {
       "ticker": "RKLB",
       "pattern": "high_tight_pullback",
-      "score": 63.9,
+      "score": 64.35,
       "state": "candidate"
     },
     {
       "ticker": "NXE",
       "pattern": "double_bottom",
-      "score": 63.85,
+      "score": 64.27,
       "state": "candidate"
     }
   ]
