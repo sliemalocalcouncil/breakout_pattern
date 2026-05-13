@@ -455,8 +455,8 @@
   },
   "BABA::double_bottom": {
     "invalid_below": 128.37505000000002,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-05-20T20:00:00+00:00",
+    "state": "breakout_confirmed",
     "trigger": 145.8
   },
   "BABA::vcp": {
@@ -1061,7 +1061,7 @@
     "last_alert_score": 65.03,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 1897.49
   },
   "KLAC::inverse_head_shoulders": {
