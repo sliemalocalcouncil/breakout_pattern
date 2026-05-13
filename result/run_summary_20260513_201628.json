@@ -1,0 +1,73 @@
+{
+  "run_id": "20260513T201628Z-8be1c4",
+  "asof": "2026-05-13T20:16:28.670759+00:00",
+  "n_signals": 190,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 50,
+    "vcp": 59,
+    "ascending_triangle": 18,
+    "base_on_base": 4,
+    "breakout_retest_hold": 20,
+    "high_tight_pullback": 3,
+    "bull_flag": 29,
+    "cup_with_handle": 7
+  },
+  "by_state": {
+    "absent": 57,
+    "forming": 50,
+    "invalidated": 16,
+    "setup": 34,
+    "candidate": 10,
+    "breakout_confirmed": 23
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 50,
+      "vcp": 59,
+      "ascending_triangle": 18,
+      "base_on_base": 4,
+      "breakout_retest_hold": 20,
+      "high_tight_pullback": 3,
+      "bull_flag": 29,
+      "cup_with_handle": 7
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 68.06,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NVDA",
+      "pattern": "breakout_retest_hold",
+      "score": 67.77,
+      "state": "setup"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 67.49,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "high_tight_pullback",
+      "score": 67.12,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 66.48,
+      "state": "candidate"
+    }
+  ]
+}

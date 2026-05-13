@@ -1,38 +1,36 @@
 {
-  "run_id": "20260513T182148Z-001124",
-  "asof": "2026-05-13T18:21:48.590534+00:00",
-  "n_signals": 189,
+  "run_id": "20260513T201628Z-8be1c4",
+  "asof": "2026-05-13T20:16:28.670759+00:00",
+  "n_signals": 190,
   "n_alerts_eligible": 0,
   "by_pattern": {
     "double_bottom": 50,
     "vcp": 59,
     "ascending_triangle": 18,
-    "breakout_retest_hold": 19,
     "base_on_base": 4,
-    "bull_flag": 30,
-    "cup_with_handle": 7,
-    "high_tight_pullback": 2
+    "breakout_retest_hold": 20,
+    "high_tight_pullback": 3,
+    "bull_flag": 29,
+    "cup_with_handle": 7
   },
   "by_state": {
-    "forming": 50,
     "absent": 57,
-    "retest_hold": 1,
-    "invalidated": 17,
-    "setup": 35,
-    "breakout_confirmed": 22,
-    "candidate": 6,
-    "breakout_failed": 1
+    "forming": 50,
+    "invalidated": 16,
+    "setup": 34,
+    "candidate": 10,
+    "breakout_confirmed": 23
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 50,
       "vcp": 59,
       "ascending_triangle": 18,
-      "breakout_retest_hold": 19,
       "base_on_base": 4,
-      "bull_flag": 30,
-      "cup_with_handle": 7,
-      "high_tight_pullback": 2
+      "breakout_retest_hold": 20,
+      "high_tight_pullback": 3,
+      "bull_flag": 29,
+      "cup_with_handle": 7
     },
     "active_monitor_events": 0,
     "alerts_by_type": {},
@@ -42,33 +40,33 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "MRVL",
-      "pattern": "breakout_retest_hold",
-      "score": 65.79,
-      "state": "setup"
-    },
-    {
       "ticker": "DELL",
       "pattern": "double_bottom",
-      "score": 65.14,
+      "score": 68.06,
       "state": "candidate"
+    },
+    {
+      "ticker": "NVDA",
+      "pattern": "breakout_retest_hold",
+      "score": 67.77,
+      "state": "setup"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 64.83,
+      "score": 67.49,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "high_tight_pullback",
+      "score": 67.12,
       "state": "candidate"
     },
     {
       "ticker": "AMAT",
       "pattern": "double_bottom",
-      "score": 64.29,
-      "state": "candidate"
-    },
-    {
-      "ticker": "ORCL",
-      "pattern": "double_bottom",
-      "score": 63.9,
+      "score": 66.48,
       "state": "candidate"
     }
   ]
