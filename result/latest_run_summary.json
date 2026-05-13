@@ -1,75 +1,77 @@
 {
-  "run_id": "20260512T214658Z-61c5c4",
-  "asof": "2026-05-12T21:46:58.249385+00:00",
-  "n_signals": 203,
-  "n_alerts_eligible": 1,
+  "run_id": "20260513T161427Z-28c0e1",
+  "asof": "2026-05-13T16:14:27.317311+00:00",
+  "n_signals": 194,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 51,
+    "double_bottom": 50,
     "vcp": 59,
-    "ascending_triangle": 22,
-    "breakout_retest_hold": 22,
-    "base_on_base": 5,
-    "high_tight_pullback": 4,
-    "bull_flag": 33,
-    "cup_with_handle": 6,
-    "inverse_head_shoulders": 1
+    "ascending_triangle": 21,
+    "breakout_retest_hold": 20,
+    "base_on_base": 4,
+    "bull_flag": 30,
+    "cup_with_handle": 8,
+    "high_tight_pullback": 2
   },
   "by_state": {
-    "forming": 52,
-    "absent": 66,
-    "breakout_confirmed": 26,
+    "absent": 63,
+    "forming": 51,
+    "breakout_confirmed": 24,
     "invalidated": 18,
     "setup": 30,
-    "candidate": 9,
-    "breakout_failed": 2
+    "candidate": 6,
+    "retest_hold": 1,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 51,
+      "double_bottom": 50,
       "vcp": 59,
-      "ascending_triangle": 22,
-      "breakout_retest_hold": 22,
-      "base_on_base": 5,
-      "high_tight_pullback": 4,
-      "bull_flag": 33,
-      "cup_with_handle": 6,
-      "inverse_head_shoulders": 1
+      "ascending_triangle": 21,
+      "breakout_retest_hold": 19,
+      "base_on_base": 4,
+      "bull_flag": 30,
+      "cup_with_handle": 8,
+      "high_tight_pullback": 2
     },
-    "active_monitor_events": 0,
-    "alerts_by_type": {},
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "retest": 1,
+      "failed": 1
+    },
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "NVDA",
-      "pattern": "breakout_retest_hold",
-      "score": 72.44,
-      "state": "setup"
-    },
-    {
-      "ticker": "QUBT",
+      "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 65.02,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "OKLO",
-      "pattern": "breakout_retest_hold",
-      "score": 64.44,
-      "state": "setup"
-    },
-    {
-      "ticker": "RKLB",
-      "pattern": "high_tight_pullback",
-      "score": 64.35,
+      "score": 64.96,
       "state": "candidate"
     },
     {
-      "ticker": "NXE",
+      "ticker": "DELL",
       "pattern": "double_bottom",
-      "score": 64.27,
+      "score": 64.43,
+      "state": "breakout_failed"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 64.41,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 63.5,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MRVL",
+      "pattern": "double_bottom",
+      "score": 62.63,
       "state": "candidate"
     }
   ]
