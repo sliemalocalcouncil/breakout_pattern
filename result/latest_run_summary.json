@@ -1,41 +1,43 @@
 {
-  "run_id": "20260514T160505Z-0f8d9d",
-  "asof": "2026-05-14T16:05:05.189237+00:00",
-  "n_signals": 172,
-  "n_alerts_eligible": 1,
+  "run_id": "20260514T181423Z-7e3461",
+  "asof": "2026-05-14T18:14:23.205798+00:00",
+  "n_signals": 178,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 49,
+    "double_bottom": 50,
     "vcp": 59,
-    "ascending_triangle": 18,
+    "ascending_triangle": 17,
     "base_on_base": 4,
-    "breakout_retest_hold": 15,
+    "breakout_retest_hold": 17,
     "cup_with_handle": 5,
-    "bull_flag": 22
+    "bull_flag": 22,
+    "inverse_head_shoulders": 4
   },
   "by_state": {
-    "absent": 57,
-    "forming": 46,
-    "invalidated": 12,
-    "breakout_confirmed": 25,
-    "candidate": 10,
-    "setup": 19,
-    "retest_hold": 1,
-    "breakout_failed": 2
+    "absent": 62,
+    "forming": 48,
+    "invalidated": 9,
+    "breakout_confirmed": 26,
+    "candidate": 5,
+    "setup": 25,
+    "retest_hold": 2,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 49,
+      "double_bottom": 50,
       "vcp": 59,
-      "ascending_triangle": 18,
+      "ascending_triangle": 17,
       "base_on_base": 4,
-      "breakout_retest_hold": 14,
+      "breakout_retest_hold": 16,
       "cup_with_handle": 5,
-      "bull_flag": 22
+      "bull_flag": 22,
+      "inverse_head_shoulders": 4
     },
     "active_monitor_events": 1,
     "alerts_by_type": {
-      "watch": 1,
-      "invalidated": 2,
+      "breakout": 1,
+      "failed": 1,
       "retest": 1
     },
     "tickers_processed": 63,
@@ -44,34 +46,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "ORCL",
+      "ticker": "AMAT",
       "pattern": "double_bottom",
-      "score": 70.1,
+      "score": 68.14,
       "state": "candidate"
     },
     {
-      "ticker": "AMAT",
+      "ticker": "NNE",
       "pattern": "double_bottom",
-      "score": 68.31,
+      "score": 64.23,
       "state": "candidate"
+    },
+    {
+      "ticker": "QUBT",
+      "pattern": "double_bottom",
+      "score": 62.95,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "ARM",
+      "pattern": "double_bottom",
+      "score": 62.5,
+      "state": "setup"
     },
     {
       "ticker": "LRCX",
-      "pattern": "double_bottom",
-      "score": 66.6,
-      "state": "candidate"
-    },
-    {
-      "ticker": "DELL",
-      "pattern": "double_bottom",
-      "score": 63.37,
-      "state": "candidate"
-    },
-    {
-      "ticker": "ORCL",
-      "pattern": "cup_with_handle",
-      "score": 62.97,
-      "state": "candidate"
+      "pattern": "breakout_retest_hold",
+      "score": 62.44,
+      "state": "setup"
     }
   ]
 }
