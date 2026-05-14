@@ -1,0 +1,79 @@
+{
+  "run_id": "20260514T201154Z-bf979c",
+  "asof": "2026-05-14T20:11:54.408474+00:00",
+  "n_signals": 187,
+  "n_alerts_eligible": 2,
+  "by_pattern": {
+    "double_bottom": 50,
+    "vcp": 59,
+    "ascending_triangle": 18,
+    "base_on_base": 4,
+    "breakout_retest_hold": 18,
+    "bull_flag": 27,
+    "cup_with_handle": 5,
+    "high_tight_pullback": 2,
+    "inverse_head_shoulders": 4
+  },
+  "by_state": {
+    "absent": 63,
+    "forming": 48,
+    "invalidated": 9,
+    "setup": 29,
+    "breakout_confirmed": 26,
+    "candidate": 11,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 50,
+      "vcp": 59,
+      "ascending_triangle": 18,
+      "base_on_base": 4,
+      "breakout_retest_hold": 18,
+      "bull_flag": 27,
+      "cup_with_handle": 5,
+      "high_tight_pullback": 2,
+      "inverse_head_shoulders": 4
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 1,
+      "watch": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 71.24,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 70.48,
+      "state": "setup"
+    },
+    {
+      "ticker": "MRVL",
+      "pattern": "breakout_retest_hold",
+      "score": 69.84,
+      "state": "setup"
+    },
+    {
+      "ticker": "NNE",
+      "pattern": "double_bottom",
+      "score": 64.34,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QUBT",
+      "pattern": "double_bottom",
+      "score": 63.43,
+      "state": "candidate"
+    }
+  ]
+}
