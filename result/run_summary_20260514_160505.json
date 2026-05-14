@@ -1,0 +1,77 @@
+{
+  "run_id": "20260514T160505Z-0f8d9d",
+  "asof": "2026-05-14T16:05:05.189237+00:00",
+  "n_signals": 172,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 49,
+    "vcp": 59,
+    "ascending_triangle": 18,
+    "base_on_base": 4,
+    "breakout_retest_hold": 15,
+    "cup_with_handle": 5,
+    "bull_flag": 22
+  },
+  "by_state": {
+    "absent": 57,
+    "forming": 46,
+    "invalidated": 12,
+    "breakout_confirmed": 25,
+    "candidate": 10,
+    "setup": 19,
+    "retest_hold": 1,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 49,
+      "vcp": 59,
+      "ascending_triangle": 18,
+      "base_on_base": 4,
+      "breakout_retest_hold": 14,
+      "cup_with_handle": 5,
+      "bull_flag": 22
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "watch": 1,
+      "invalidated": 2,
+      "retest": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 70.1,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 68.31,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 66.6,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "double_bottom",
+      "score": 63.37,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "cup_with_handle",
+      "score": 62.97,
+      "state": "candidate"
+    }
+  ]
+}
