@@ -1,0 +1,73 @@
+{
+  "run_id": "20260518T182719Z-716b6b",
+  "asof": "2026-05-18T18:27:19.043572+00:00",
+  "n_signals": 211,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 58,
+    "vcp": 59,
+    "breakout_retest_hold": 17,
+    "bull_flag": 38,
+    "cup_with_handle": 5,
+    "ascending_triangle": 22,
+    "base_on_base": 3,
+    "inverse_head_shoulders": 9
+  },
+  "by_state": {
+    "absent": 100,
+    "forming": 43,
+    "candidate": 4,
+    "breakout_confirmed": 13,
+    "setup": 16,
+    "invalidated": 35
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 58,
+      "vcp": 59,
+      "breakout_retest_hold": 17,
+      "bull_flag": 38,
+      "cup_with_handle": 5,
+      "ascending_triangle": 22,
+      "base_on_base": 3,
+      "inverse_head_shoulders": 9
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 63.73,
+      "state": "setup"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 63.7,
+      "state": "setup"
+    },
+    {
+      "ticker": "GOOG",
+      "pattern": "breakout_retest_hold",
+      "score": 63.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "breakout_retest_hold",
+      "score": 61.56,
+      "state": "setup"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 61.02,
+      "state": "invalidated"
+    }
+  ]
+}

@@ -1,42 +1,39 @@
 {
-  "run_id": "20260518T164300Z-9e086e",
-  "asof": "2026-05-18T16:43:00.953430+00:00",
-  "n_signals": 216,
+  "run_id": "20260518T182719Z-716b6b",
+  "asof": "2026-05-18T18:27:19.043572+00:00",
+  "n_signals": 211,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 57,
+    "double_bottom": 58,
     "vcp": 59,
+    "breakout_retest_hold": 17,
     "bull_flag": 38,
     "cup_with_handle": 5,
-    "breakout_retest_hold": 22,
-    "ascending_triangle": 23,
+    "ascending_triangle": 22,
     "base_on_base": 3,
     "inverse_head_shoulders": 9
   },
   "by_state": {
-    "absent": 93,
-    "forming": 45,
+    "absent": 100,
+    "forming": 43,
+    "candidate": 4,
     "breakout_confirmed": 13,
-    "invalidated": 45,
-    "setup": 14,
-    "breakout_failed": 6
+    "setup": 16,
+    "invalidated": 35
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 57,
+      "double_bottom": 58,
       "vcp": 59,
+      "breakout_retest_hold": 17,
       "bull_flag": 38,
       "cup_with_handle": 5,
-      "breakout_retest_hold": 12,
       "ascending_triangle": 22,
       "base_on_base": 3,
       "inverse_head_shoulders": 9
     },
-    "active_monitor_events": 11,
-    "alerts_by_type": {
-      "invalidated": 16,
-      "failed": 1
-    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
@@ -45,32 +42,32 @@
     {
       "ticker": "ORCL",
       "pattern": "breakout_retest_hold",
-      "score": 60.87,
+      "score": 63.73,
+      "state": "setup"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 63.7,
+      "state": "setup"
+    },
+    {
+      "ticker": "GOOG",
+      "pattern": "breakout_retest_hold",
+      "score": 63.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RKLB",
+      "pattern": "breakout_retest_hold",
+      "score": 61.56,
       "state": "setup"
     },
     {
       "ticker": "ORCL",
       "pattern": "double_bottom",
-      "score": 60.09,
+      "score": 61.02,
       "state": "invalidated"
-    },
-    {
-      "ticker": "RKLB",
-      "pattern": "double_bottom",
-      "score": 59.37,
-      "state": "forming"
-    },
-    {
-      "ticker": "ARM",
-      "pattern": "double_bottom",
-      "score": 57.98,
-      "state": "forming"
-    },
-    {
-      "ticker": "DELL",
-      "pattern": "inverse_head_shoulders",
-      "score": 57.35,
-      "state": "forming"
     }
   ]
 }
