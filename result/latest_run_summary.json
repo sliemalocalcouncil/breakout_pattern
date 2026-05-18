@@ -1,45 +1,41 @@
 {
-  "run_id": "20260515T203821Z-580c48",
-  "asof": "2026-05-15T20:38:21.499627+00:00",
-  "n_signals": 214,
-  "n_alerts_eligible": 1,
+  "run_id": "20260518T164300Z-9e086e",
+  "asof": "2026-05-18T16:43:00.953430+00:00",
+  "n_signals": 216,
+  "n_alerts_eligible": 0,
   "by_pattern": {
     "double_bottom": 57,
     "vcp": 59,
-    "ascending_triangle": 24,
-    "bull_flag": 36,
+    "bull_flag": 38,
     "cup_with_handle": 5,
-    "breakout_retest_hold": 18,
+    "breakout_retest_hold": 22,
+    "ascending_triangle": 23,
     "base_on_base": 3,
-    "inverse_head_shoulders": 9,
-    "high_tight_pullback": 3
+    "inverse_head_shoulders": 9
   },
   "by_state": {
-    "absent": 92,
-    "forming": 59,
-    "invalidated": 16,
-    "breakout_failed": 1,
-    "breakout_confirmed": 18,
-    "candidate": 11,
-    "setup": 15,
-    "retest_hold": 2
+    "absent": 93,
+    "forming": 45,
+    "breakout_confirmed": 13,
+    "invalidated": 45,
+    "setup": 14,
+    "breakout_failed": 6
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 57,
       "vcp": 59,
-      "ascending_triangle": 24,
-      "bull_flag": 36,
+      "bull_flag": 38,
       "cup_with_handle": 5,
-      "breakout_retest_hold": 17,
+      "breakout_retest_hold": 12,
+      "ascending_triangle": 22,
       "base_on_base": 3,
-      "inverse_head_shoulders": 9,
-      "high_tight_pullback": 3
+      "inverse_head_shoulders": 9
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 11,
     "alerts_by_type": {
-      "failed": 1,
-      "invalidated": 1
+      "invalidated": 16,
+      "failed": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -49,32 +45,32 @@
     {
       "ticker": "ORCL",
       "pattern": "breakout_retest_hold",
-      "score": 70.32,
+      "score": 60.87,
       "state": "setup"
-    },
-    {
-      "ticker": "AMAT",
-      "pattern": "double_bottom",
-      "score": 66.19,
-      "state": "candidate"
     },
     {
       "ticker": "ORCL",
       "pattern": "double_bottom",
-      "score": 64.33,
-      "state": "candidate"
+      "score": 60.09,
+      "state": "invalidated"
     },
     {
-      "ticker": "MRVL",
-      "pattern": "breakout_retest_hold",
-      "score": 63.93,
-      "state": "setup"
+      "ticker": "RKLB",
+      "pattern": "double_bottom",
+      "score": 59.37,
+      "state": "forming"
     },
     {
-      "ticker": "NVDA",
-      "pattern": "breakout_retest_hold",
-      "score": 62.18,
-      "state": "setup"
+      "ticker": "ARM",
+      "pattern": "double_bottom",
+      "score": 57.98,
+      "state": "forming"
+    },
+    {
+      "ticker": "DELL",
+      "pattern": "inverse_head_shoulders",
+      "score": 57.35,
+      "state": "forming"
     }
   ]
 }
