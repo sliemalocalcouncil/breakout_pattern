@@ -1,0 +1,78 @@
+{
+  "run_id": "20260519T164459Z-b9b3cd",
+  "asof": "2026-05-19T16:44:59.570655+00:00",
+  "n_signals": 201,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 58,
+    "vcp": 59,
+    "bull_flag": 37,
+    "breakout_retest_hold": 9,
+    "cup_with_handle": 5,
+    "ascending_triangle": 20,
+    "base_on_base": 3,
+    "inverse_head_shoulders": 9,
+    "high_tight_pullback": 1
+  },
+  "by_state": {
+    "forming": 47,
+    "absent": 90,
+    "breakout_confirmed": 13,
+    "invalidated": 37,
+    "setup": 12,
+    "retest_hold": 1,
+    "candidate": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 58,
+      "vcp": 59,
+      "bull_flag": 37,
+      "cup_with_handle": 5,
+      "ascending_triangle": 20,
+      "breakout_retest_hold": 6,
+      "base_on_base": 3,
+      "inverse_head_shoulders": 9,
+      "high_tight_pullback": 1
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "invalidated": 4
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 60.82,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NVDA",
+      "pattern": "breakout_retest_hold",
+      "score": 60.52,
+      "state": "setup"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 59.93,
+      "state": "forming"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "double_bottom",
+      "score": 59.53,
+      "state": "invalidated"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "ascending_triangle",
+      "score": 59.28,
+      "state": "forming"
+    }
+  ]
+}
