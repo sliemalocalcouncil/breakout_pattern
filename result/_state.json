@@ -20,7 +20,7 @@
     "trigger": 181.29
   },
   "ACN::high_tight_pullback": {
-    "invalid_below": 173.90175000000002,
+    "invalid_below": 173.52745,
     "state": "forming",
     "trigger": 184.793
   },
@@ -36,7 +36,7 @@
     "trigger": 181.29
   },
   "ADI::ascending_triangle": {
-    "invalid_below": 400.66844999999995,
+    "invalid_below": 401.08215,
     "monitored_until": null,
     "state": "absent",
     "trigger": 435.72
@@ -170,10 +170,10 @@
     "trigger": 277.8
   },
   "AMZN::double_bottom": {
-    "invalid_below": 256.97674850000004,
+    "invalid_below": 251.36214999999999,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 277.8
+    "state": "forming",
+    "trigger": 270.7799
   },
   "AMZN::vcp": {
     "invalid_below": 252.31760000000003,
@@ -241,7 +241,7 @@
   },
   "APH::inverse_head_shoulders": {
     "invalid_below": 119.60855000000001,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 137.8
   },
   "APH::vcp": {
@@ -250,7 +250,7 @@
     "last_alert_score": 44.96,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 154.918
   },
   "ARM::breakout_retest_hold": {
@@ -447,7 +447,7 @@
     "trigger": 238.535
   },
   "BA::bull_flag": {
-    "invalid_below": 213.53815,
+    "invalid_below": 211.66664999999998,
     "last_alert_at": "2026-05-08T18:04:59.558901+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
@@ -456,7 +456,7 @@
     "trigger": 244.07
   },
   "BA::cup_with_handle": {
-    "invalid_below": 213.53815,
+    "invalid_below": 210.79,
     "monitored_until": null,
     "state": "absent",
     "trigger": 236.45
@@ -620,8 +620,8 @@
     "last_alert_at": "2026-05-11T18:18:33.237220+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-05-27T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "candidate",
     "trigger": 180.78
   },
   "CRM::bull_flag": {
@@ -740,7 +740,7 @@
     "last_alert_score": 64.43,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 263.99
   },
   "DELL::high_tight_pullback": {
@@ -806,7 +806,7 @@
     "trigger": 356.42
   },
   "GOOG::ascending_triangle": {
-    "invalid_below": 383.9136,
+    "invalid_below": 377.255,
     "monitored_until": null,
     "state": "absent",
     "trigger": 404.47
@@ -823,7 +823,7 @@
     "trigger": 404.47
   },
   "GOOG::double_bottom": {
-    "invalid_below": 384.45535,
+    "invalid_below": 377.255,
     "monitored_until": null,
     "state": "forming",
     "trigger": 404.47
@@ -873,8 +873,8 @@
   },
   "HII::breakout_retest_hold": {
     "invalid_below": 320.60159999999996,
-    "monitored_until": "2026-05-27T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 326.485
   },
   "HII::bull_flag": {
@@ -991,7 +991,7 @@
     "last_alert_score": 57.8,
     "last_alert_type": "retest",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 115.54
   },
   "INTC::high_tight_pullback": {
@@ -1610,7 +1610,7 @@
   "OKLO::bull_flag": {
     "invalid_below": 53.145675,
     "state": "absent",
-    "trigger": 74.3285
+    "trigger": 73.4
   },
   "OKLO::double_bottom": {
     "invalid_below": 63.690099999999994,
@@ -2017,7 +2017,7 @@
     "trigger": 200.63
   },
   "TMUS::breakout_retest_hold": {
-    "invalid_below": 190.377,
+    "invalid_below": 190.080099,
     "last_alert_at": "2026-05-15T17:24:10.281411+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
@@ -2224,9 +2224,9 @@
   },
   "UUUU::vcp": {
     "invalid_below": 19.1681,
-    "last_alert_at": "2026-04-29T15:54:32.067861+00:00",
-    "last_alert_score": 50.96,
-    "last_alert_type": "retest",
+    "last_alert_at": "2026-05-19T20:25:37.838583+00:00",
+    "last_alert_score": 47.2,
+    "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "invalidated",
     "trigger": 23.13
