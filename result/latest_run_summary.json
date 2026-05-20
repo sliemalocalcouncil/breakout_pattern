@@ -1,38 +1,38 @@
 {
-  "run_id": "20260520T191417Z-f10614",
-  "asof": "2026-05-20T19:14:17.848680+00:00",
-  "n_signals": 186,
+  "run_id": "20260520T211658Z-98a71f",
+  "asof": "2026-05-20T21:16:58.908846+00:00",
+  "n_signals": 183,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 49,
+    "double_bottom": 48,
     "vcp": 59,
     "breakout_retest_hold": 14,
-    "bull_flag": 33,
+    "bull_flag": 30,
     "cup_with_handle": 8,
-    "ascending_triangle": 11,
+    "ascending_triangle": 10,
     "base_on_base": 3,
     "inverse_head_shoulders": 5,
-    "high_tight_pullback": 4
+    "high_tight_pullback": 6
   },
   "by_state": {
-    "forming": 51,
-    "setup": 26,
+    "forming": 47,
+    "setup": 23,
     "absent": 79,
-    "breakout_confirmed": 12,
-    "candidate": 3,
-    "invalidated": 15
+    "breakout_confirmed": 17,
+    "candidate": 5,
+    "invalidated": 12
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 49,
+      "double_bottom": 48,
       "vcp": 59,
       "breakout_retest_hold": 14,
-      "bull_flag": 33,
+      "bull_flag": 30,
       "cup_with_handle": 8,
-      "ascending_triangle": 11,
+      "ascending_triangle": 10,
       "base_on_base": 3,
       "inverse_head_shoulders": 5,
-      "high_tight_pullback": 4
+      "high_tight_pullback": 6
     },
     "active_monitor_events": 0,
     "alerts_by_type": {},
@@ -44,31 +44,31 @@
     {
       "ticker": "INTC",
       "pattern": "breakout_retest_hold",
-      "score": 67.72,
+      "score": 69.65,
       "state": "setup"
     },
     {
       "ticker": "MRVL",
       "pattern": "breakout_retest_hold",
-      "score": 65.76,
+      "score": 69.07,
       "state": "setup"
+    },
+    {
+      "ticker": "ARM",
+      "pattern": "high_tight_pullback",
+      "score": 67.48,
+      "state": "candidate"
     },
     {
       "ticker": "QBTS",
       "pattern": "breakout_retest_hold",
-      "score": 63.21,
-      "state": "candidate"
+      "score": 65.2,
+      "state": "setup"
     },
     {
       "ticker": "ORCL",
       "pattern": "double_bottom",
-      "score": 62.0,
-      "state": "candidate"
-    },
-    {
-      "ticker": "DELL",
-      "pattern": "double_bottom",
-      "score": 60.48,
+      "score": 62.75,
       "state": "candidate"
     }
   ]
