@@ -1347,7 +1347,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 302.0
   },
   "LRCX::bull_flag": {
@@ -1361,7 +1361,7 @@
     "last_alert_score": 65.33,
     "last_alert_type": "retest",
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 302.0
   },
   "LRCX::high_tight_pullback": {
@@ -1381,7 +1381,7 @@
   "LRCX::vcp": {
     "invalid_below": 259.75435,
     "monitored_until": "2026-06-01T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 302.0
   },
   "MMM::ascending_triangle": {
@@ -1784,7 +1784,7 @@
   "ORCL::vcp": {
     "invalid_below": 178.1570485,
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 200.15
   },
   "QBTS::ascending_triangle": {
