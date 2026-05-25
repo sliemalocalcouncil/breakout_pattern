@@ -1,6 +1,6 @@
 {
-  "run_id": "20260525T161538Z-e4ed44",
-  "asof": "2026-05-25T16:15:38.334763+00:00",
+  "run_id": "20260525T180651Z-566997",
+  "asof": "2026-05-25T18:06:51.841167+00:00",
   "n_signals": 176,
   "n_alerts_eligible": 3,
   "by_pattern": {
@@ -38,10 +38,7 @@
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "setup": 1,
-      "watch": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 63,
     "tickers_with_errors": 0
   },
