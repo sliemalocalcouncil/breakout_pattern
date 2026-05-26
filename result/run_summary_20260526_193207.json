@@ -1,0 +1,81 @@
+{
+  "run_id": "20260526T193207Z-36782e",
+  "asof": "2026-05-26T19:32:07.397947+00:00",
+  "n_signals": 218,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 51,
+    "vcp": 60,
+    "ascending_triangle": 16,
+    "breakout_retest_hold": 29,
+    "high_tight_pullback": 19,
+    "inverse_head_shoulders": 15,
+    "bull_flag": 15,
+    "cup_with_handle": 8,
+    "base_on_base": 4,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 57,
+    "setup": 61,
+    "absent": 50,
+    "breakout_confirmed": 26,
+    "candidate": 16,
+    "invalidated": 7,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 51,
+      "vcp": 60,
+      "ascending_triangle": 16,
+      "breakout_retest_hold": 29,
+      "high_tight_pullback": 19,
+      "inverse_head_shoulders": 15,
+      "bull_flag": 15,
+      "cup_with_handle": 8,
+      "base_on_base": 4,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "watch": 2,
+      "setup": 1
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "DELL",
+      "pattern": "high_tight_pullback",
+      "score": 71.42,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 71.35,
+      "state": "setup"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 70.8,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ARM",
+      "pattern": "breakout_retest_hold",
+      "score": 69.27,
+      "state": "setup"
+    },
+    {
+      "ticker": "ASTS",
+      "pattern": "high_tight_pullback",
+      "score": 67.49,
+      "state": "candidate"
+    }
+  ]
+}
