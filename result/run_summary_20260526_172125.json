@@ -1,0 +1,80 @@
+{
+  "run_id": "20260526T172125Z-a17711",
+  "asof": "2026-05-26T17:21:25.044945+00:00",
+  "n_signals": 183,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 54,
+    "vcp": 60,
+    "ascending_triangle": 20,
+    "inverse_head_shoulders": 14,
+    "bull_flag": 7,
+    "cup_with_handle": 8,
+    "breakout_retest_hold": 9,
+    "base_on_base": 4,
+    "tight_consolidation": 1,
+    "high_tight_pullback": 6
+  },
+  "by_state": {
+    "setup": 58,
+    "absent": 41,
+    "forming": 45,
+    "candidate": 5,
+    "invalidated": 8,
+    "breakout_confirmed": 26
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 54,
+      "vcp": 60,
+      "ascending_triangle": 20,
+      "inverse_head_shoulders": 14,
+      "bull_flag": 7,
+      "cup_with_handle": 8,
+      "breakout_retest_hold": 8,
+      "base_on_base": 4,
+      "tight_consolidation": 1,
+      "high_tight_pullback": 6
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "breakout": 2
+    },
+    "tickers_processed": 63,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 69.98,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 65.96,
+      "state": "candidate"
+    },
+    {
+      "ticker": "IONQ",
+      "pattern": "high_tight_pullback",
+      "score": 65.48,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ASML",
+      "pattern": "breakout_retest_hold",
+      "score": 62.89,
+      "state": "setup"
+    },
+    {
+      "ticker": "CSCO",
+      "pattern": "breakout_retest_hold",
+      "score": 62.63,
+      "state": "candidate"
+    }
+  ]
+}
