@@ -1,46 +1,46 @@
 {
-  "run_id": "20260527T192149Z-dff40e",
-  "asof": "2026-05-27T19:21:49.898393+00:00",
-  "n_signals": 222,
-  "n_alerts_eligible": 0,
+  "run_id": "20260527T211804Z-d49dd4",
+  "asof": "2026-05-27T21:18:04.614633+00:00",
+  "n_signals": 229,
+  "n_alerts_eligible": 2,
   "by_pattern": {
     "double_bottom": 46,
-    "vcp": 59,
-    "ascending_triangle": 23,
-    "breakout_retest_hold": 30,
-    "high_tight_pullback": 15,
-    "inverse_head_shoulders": 15,
-    "bull_flag": 21,
+    "vcp": 60,
+    "ascending_triangle": 24,
+    "breakout_retest_hold": 33,
+    "high_tight_pullback": 16,
+    "inverse_head_shoulders": 13,
+    "bull_flag": 24,
     "cup_with_handle": 8,
     "base_on_base": 4,
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 73,
-    "setup": 44,
-    "absent": 62,
-    "candidate": 7,
-    "invalidated": 6,
+    "forming": 75,
+    "absent": 69,
+    "setup": 38,
+    "candidate": 14,
+    "invalidated": 7,
     "breakout_confirmed": 23,
-    "breakout_failed": 6,
-    "retest_hold": 1
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
       "double_bottom": 46,
-      "vcp": 59,
-      "ascending_triangle": 23,
-      "breakout_retest_hold": 30,
-      "high_tight_pullback": 15,
-      "inverse_head_shoulders": 15,
-      "bull_flag": 21,
+      "vcp": 60,
+      "ascending_triangle": 24,
+      "breakout_retest_hold": 32,
+      "high_tight_pullback": 16,
+      "inverse_head_shoulders": 13,
+      "bull_flag": 24,
       "cup_with_handle": 8,
       "base_on_base": 4,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "breakout": 1
+      "retest": 1,
+      "watch": 1
     },
     "tickers_processed": 63,
     "tickers_with_errors": 0
@@ -48,34 +48,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "TSM",
-      "pattern": "breakout_retest_hold",
-      "score": 68.14,
-      "state": "setup"
+      "ticker": "DELL",
+      "pattern": "high_tight_pullback",
+      "score": 71.37,
+      "state": "candidate"
     },
     {
       "ticker": "DELL",
       "pattern": "breakout_retest_hold",
-      "score": 66.94,
+      "score": 70.16,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 69.22,
+      "state": "setup"
+    },
+    {
+      "ticker": "KEYS",
+      "pattern": "breakout_retest_hold",
+      "score": 66.97,
       "state": "setup"
     },
     {
       "ticker": "ORCL",
       "pattern": "breakout_retest_hold",
-      "score": 65.66,
+      "score": 66.74,
       "state": "setup"
-    },
-    {
-      "ticker": "AVGO",
-      "pattern": "breakout_retest_hold",
-      "score": 65.16,
-      "state": "setup"
-    },
-    {
-      "ticker": "LRCX",
-      "pattern": "high_tight_pullback",
-      "score": 63.95,
-      "state": "candidate"
     }
   ]
 }
