@@ -68,11 +68,11 @@
   },
   "AEVA::breakout_retest_hold": {
     "invalid_below": 24.967799999999997,
-    "last_alert_at": "2026-05-28T20:09:05.358456+00:00",
-    "last_alert_score": 63.31,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-28T22:15:37.300159+00:00",
+    "last_alert_score": 64.03,
+    "last_alert_type": "retest",
     "monitored_until": "2026-06-04T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 25.205
   },
   "AEVA::bull_flag": {
@@ -766,7 +766,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": "2026-06-04T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 186.5
   },
   "COF::bull_flag": {
@@ -927,11 +927,11 @@
   },
   "DELL::breakout_retest_hold": {
     "invalid_below": 315.612,
-    "last_alert_at": "2026-05-28T20:10:28.181449+00:00",
-    "last_alert_score": 62.27,
-    "last_alert_type": "breakout",
+    "last_alert_at": "2026-05-28T22:16:53.466296+00:00",
+    "last_alert_score": 62.9,
+    "last_alert_type": "retest",
     "monitored_until": "2026-06-04T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 312.1399
   },
   "DELL::bull_flag": {
@@ -1243,7 +1243,7 @@
   },
   "HPE::ascending_triangle": {
     "invalid_below": 32.618275000000004,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 38.58
   },
   "HPE::cup_with_handle": {
@@ -1350,7 +1350,7 @@
   "INTU::breakout_retest_hold": {
     "invalid_below": 309.5928,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 314.7
   },
   "INTU::double_bottom": {
@@ -1617,8 +1617,8 @@
   },
   "LHX::double_bottom": {
     "invalid_below": 298.568275,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-06-04T20:00:00+00:00",
+    "state": "setup",
     "trigger": 314.49
   },
   "LHX::vcp": {

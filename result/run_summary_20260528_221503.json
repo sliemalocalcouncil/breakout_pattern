@@ -1,0 +1,80 @@
+{
+  "run_id": "20260528T221503Z-2c2893",
+  "asof": "2026-05-28T22:15:03.094052+00:00",
+  "n_signals": 304,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 71,
+    "vcp": 85,
+    "ascending_triangle": 36,
+    "breakout_retest_hold": 35,
+    "bull_flag": 36,
+    "high_tight_pullback": 16,
+    "base_on_base": 6,
+    "inverse_head_shoulders": 7,
+    "cup_with_handle": 11,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 75,
+    "absent": 99,
+    "setup": 73,
+    "candidate": 26,
+    "breakout_confirmed": 18,
+    "retest_hold": 4,
+    "invalidated": 9
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 71,
+      "vcp": 85,
+      "ascending_triangle": 36,
+      "breakout_retest_hold": 35,
+      "bull_flag": 36,
+      "high_tight_pullback": 16,
+      "base_on_base": 6,
+      "inverse_head_shoulders": 7,
+      "cup_with_handle": 11,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "retest": 2
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "COHU",
+      "pattern": "high_tight_pullback",
+      "score": 68.93,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PL",
+      "pattern": "double_bottom",
+      "score": 68.07,
+      "state": "setup"
+    },
+    {
+      "ticker": "DIOD",
+      "pattern": "double_bottom",
+      "score": 67.8,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RGTI",
+      "pattern": "bull_flag",
+      "score": 67.58,
+      "state": "candidate"
+    },
+    {
+      "ticker": "POWI",
+      "pattern": "double_bottom",
+      "score": 66.64,
+      "state": "candidate"
+    }
+  ]
+}
