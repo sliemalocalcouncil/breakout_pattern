@@ -1,13 +1,13 @@
 {
-  "run_id": "20260529T195210Z-72c251",
-  "asof": "2026-05-29T19:52:10.333261+00:00",
-  "n_signals": 306,
-  "n_alerts_eligible": 1,
+  "run_id": "20260529T214501Z-1acc92",
+  "asof": "2026-05-29T21:45:01.456846+00:00",
+  "n_signals": 307,
+  "n_alerts_eligible": 2,
   "by_pattern": {
     "double_bottom": 72,
     "vcp": 85,
     "ascending_triangle": 42,
-    "breakout_retest_hold": 30,
+    "breakout_retest_hold": 31,
     "bull_flag": 35,
     "high_tight_pullback": 17,
     "base_on_base": 6,
@@ -16,14 +16,14 @@
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 72,
-    "absent": 87,
-    "setup": 78,
-    "candidate": 31,
-    "breakout_confirmed": 26,
-    "invalidated": 9,
-    "retest_hold": 1,
-    "breakout_failed": 2
+    "forming": 68,
+    "absent": 85,
+    "breakout_confirmed": 44,
+    "setup": 62,
+    "candidate": 33,
+    "invalidated": 12,
+    "breakout_failed": 2,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
@@ -38,9 +38,9 @@
       "cup_with_handle": 11,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "breakout": 3,
+      "breakout": 4,
       "watch": 1
     },
     "tickers_processed": 89,
@@ -51,32 +51,32 @@
     {
       "ticker": "DELL",
       "pattern": "high_tight_pullback",
-      "score": 71.55,
+      "score": 71.87,
       "state": "candidate"
-    },
-    {
-      "ticker": "AVGO",
-      "pattern": "breakout_retest_hold",
-      "score": 69.46,
-      "state": "setup"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 69.17,
+      "score": 70.03,
       "state": "candidate"
     },
     {
       "ticker": "AMAT",
       "pattern": "ascending_triangle",
-      "score": 68.3,
+      "score": 69.03,
       "state": "candidate"
     },
     {
       "ticker": "MOD",
       "pattern": "double_bottom",
-      "score": 67.47,
+      "score": 68.09,
       "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 67.76,
+      "state": "setup"
     }
   ]
 }
