@@ -1,0 +1,80 @@
+{
+  "run_id": "20260602T175937Z-ff34fe",
+  "asof": "2026-06-02T17:59:37.123674+00:00",
+  "n_signals": 258,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 71,
+    "vcp": 84,
+    "base_on_base": 7,
+    "bull_flag": 26,
+    "ascending_triangle": 27,
+    "cup_with_handle": 11,
+    "breakout_retest_hold": 21,
+    "high_tight_pullback": 10,
+    "inverse_head_shoulders": 1
+  },
+  "by_state": {
+    "forming": 64,
+    "absent": 70,
+    "setup": 69,
+    "candidate": 15,
+    "breakout_confirmed": 31,
+    "invalidated": 8,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 71,
+      "vcp": 84,
+      "base_on_base": 7,
+      "bull_flag": 26,
+      "ascending_triangle": 27,
+      "cup_with_handle": 11,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 10,
+      "inverse_head_shoulders": 1
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "breakout": 3,
+      "invalidated": 1,
+      "failed": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORCL",
+      "pattern": "high_tight_pullback",
+      "score": 67.27,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 66.24,
+      "state": "candidate"
+    },
+    {
+      "ticker": "IONQ",
+      "pattern": "breakout_retest_hold",
+      "score": 65.59,
+      "state": "candidate"
+    },
+    {
+      "ticker": "RGTI",
+      "pattern": "double_bottom",
+      "score": 64.3,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "double_bottom",
+      "score": 63.78,
+      "state": "candidate"
+    }
+  ]
+}
