@@ -1,0 +1,78 @@
+{
+  "run_id": "20260602T205155Z-3e7224",
+  "asof": "2026-06-02T20:51:55.023297+00:00",
+  "n_signals": 279,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 70,
+    "vcp": 85,
+    "base_on_base": 7,
+    "bull_flag": 36,
+    "cup_with_handle": 11,
+    "breakout_retest_hold": 27,
+    "high_tight_pullback": 20,
+    "ascending_triangle": 22,
+    "inverse_head_shoulders": 1
+  },
+  "by_state": {
+    "forming": 65,
+    "absent": 73,
+    "setup": 71,
+    "candidate": 28,
+    "breakout_confirmed": 36,
+    "invalidated": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 70,
+      "vcp": 85,
+      "base_on_base": 7,
+      "bull_flag": 36,
+      "cup_with_handle": 11,
+      "breakout_retest_hold": 27,
+      "high_tight_pullback": 20,
+      "ascending_triangle": 22,
+      "inverse_head_shoulders": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 3,
+      "setup": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "IONQ",
+      "pattern": "breakout_retest_hold",
+      "score": 71.1,
+      "state": "setup"
+    },
+    {
+      "ticker": "RGTI",
+      "pattern": "double_bottom",
+      "score": 68.31,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "high_tight_pullback",
+      "score": 67.62,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 67.26,
+      "state": "setup"
+    },
+    {
+      "ticker": "QUBT",
+      "pattern": "double_bottom",
+      "score": 66.69,
+      "state": "candidate"
+    }
+  ]
+}
