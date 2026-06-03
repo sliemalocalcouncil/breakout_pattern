@@ -1,43 +1,45 @@
 {
-  "run_id": "20260602T205155Z-3e7224",
-  "asof": "2026-06-02T20:51:55.023297+00:00",
-  "n_signals": 279,
-  "n_alerts_eligible": 1,
+  "run_id": "20260603T181659Z-2ec346",
+  "asof": "2026-06-03T18:16:59.340045+00:00",
+  "n_signals": 266,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 70,
-    "vcp": 85,
-    "base_on_base": 7,
-    "bull_flag": 36,
+    "double_bottom": 68,
+    "vcp": 84,
+    "base_on_base": 6,
+    "breakout_retest_hold": 28,
+    "bull_flag": 37,
     "cup_with_handle": 11,
-    "breakout_retest_hold": 27,
-    "high_tight_pullback": 20,
-    "ascending_triangle": 22,
+    "ascending_triangle": 23,
+    "high_tight_pullback": 8,
     "inverse_head_shoulders": 1
   },
   "by_state": {
-    "forming": 65,
-    "absent": 73,
-    "setup": 71,
-    "candidate": 28,
-    "breakout_confirmed": 36,
-    "invalidated": 6
+    "invalidated": 27,
+    "forming": 70,
+    "absent": 77,
+    "setup": 53,
+    "candidate": 9,
+    "breakout_confirmed": 25,
+    "breakout_failed": 5
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 70,
-      "vcp": 85,
-      "base_on_base": 7,
-      "bull_flag": 36,
+      "double_bottom": 67,
+      "vcp": 84,
+      "base_on_base": 6,
+      "bull_flag": 37,
       "cup_with_handle": 11,
-      "breakout_retest_hold": 27,
-      "high_tight_pullback": 20,
-      "ascending_triangle": 22,
+      "ascending_triangle": 23,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 8,
       "inverse_head_shoulders": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 11,
     "alerts_by_type": {
-      "breakout": 3,
-      "setup": 1
+      "invalidated": 9,
+      "failed": 1,
+      "breakout": 1
     },
     "tickers_processed": 89,
     "tickers_with_errors": 0
@@ -45,33 +47,33 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "IONQ",
+      "ticker": "BELFB",
+      "pattern": "double_bottom",
+      "score": 65.4,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VRT",
       "pattern": "breakout_retest_hold",
-      "score": 71.1,
+      "score": 65.17,
       "state": "setup"
     },
     {
-      "ticker": "RGTI",
+      "ticker": "POWI",
       "pattern": "double_bottom",
-      "score": 68.31,
+      "score": 64.06,
       "state": "candidate"
     },
     {
-      "ticker": "ORCL",
-      "pattern": "high_tight_pullback",
-      "score": 67.62,
+      "ticker": "VICR",
+      "pattern": "double_bottom",
+      "score": 63.75,
       "state": "candidate"
     },
     {
-      "ticker": "LRCX",
+      "ticker": "GLW",
       "pattern": "double_bottom",
-      "score": 67.26,
-      "state": "setup"
-    },
-    {
-      "ticker": "QUBT",
-      "pattern": "double_bottom",
-      "score": 66.69,
+      "score": 62.44,
       "state": "candidate"
     }
   ]
