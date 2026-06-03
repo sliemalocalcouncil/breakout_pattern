@@ -1,0 +1,79 @@
+{
+  "run_id": "20260603T213337Z-aff7a5",
+  "asof": "2026-06-03T21:33:37.376893+00:00",
+  "n_signals": 292,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 69,
+    "vcp": 85,
+    "base_on_base": 6,
+    "bull_flag": 46,
+    "cup_with_handle": 11,
+    "breakout_retest_hold": 28,
+    "ascending_triangle": 28,
+    "high_tight_pullback": 18,
+    "inverse_head_shoulders": 1
+  },
+  "by_state": {
+    "absent": 86,
+    "forming": 78,
+    "invalidated": 24,
+    "setup": 54,
+    "candidate": 22,
+    "breakout_confirmed": 27,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 69,
+      "vcp": 85,
+      "base_on_base": 6,
+      "bull_flag": 46,
+      "cup_with_handle": 11,
+      "breakout_retest_hold": 25,
+      "ascending_triangle": 28,
+      "high_tight_pullback": 18,
+      "inverse_head_shoulders": 1
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "retest": 1,
+      "invalidated": 4
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MRVL",
+      "pattern": "high_tight_pullback",
+      "score": 68.74,
+      "state": "candidate"
+    },
+    {
+      "ticker": "BELFB",
+      "pattern": "breakout_retest_hold",
+      "score": 68.01,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "AOSL",
+      "pattern": "breakout_retest_hold",
+      "score": 67.54,
+      "state": "setup"
+    },
+    {
+      "ticker": "VRT",
+      "pattern": "breakout_retest_hold",
+      "score": 67.12,
+      "state": "setup"
+    },
+    {
+      "ticker": "FLEX",
+      "pattern": "high_tight_pullback",
+      "score": 66.68,
+      "state": "candidate"
+    }
+  ]
+}
