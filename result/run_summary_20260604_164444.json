@@ -1,0 +1,83 @@
+{
+  "run_id": "20260604T164444Z-6b270e",
+  "asof": "2026-06-04T16:44:44.043038+00:00",
+  "n_signals": 300,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 69,
+    "vcp": 84,
+    "base_on_base": 6,
+    "bull_flag": 57,
+    "cup_with_handle": 12,
+    "breakout_retest_hold": 34,
+    "ascending_triangle": 31,
+    "high_tight_pullback": 5,
+    "inverse_head_shoulders": 1,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "invalidated": 25,
+    "forming": 74,
+    "absent": 110,
+    "setup": 49,
+    "candidate": 12,
+    "retest_hold": 6,
+    "breakout_failed": 5,
+    "breakout_confirmed": 19
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 68,
+      "vcp": 84,
+      "base_on_base": 6,
+      "bull_flag": 57,
+      "cup_with_handle": 11,
+      "breakout_retest_hold": 27,
+      "ascending_triangle": 31,
+      "high_tight_pullback": 5,
+      "inverse_head_shoulders": 1,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 9,
+    "alerts_by_type": {
+      "invalidated": 8,
+      "retest": 4,
+      "failed": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "KLAC",
+      "pattern": "breakout_retest_hold",
+      "score": 64.44,
+      "state": "setup"
+    },
+    {
+      "ticker": "POWI",
+      "pattern": "double_bottom",
+      "score": 63.93,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MRVL",
+      "pattern": "bull_flag",
+      "score": 63.34,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "double_bottom",
+      "score": 63.3,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 63.11,
+      "state": "setup"
+    }
+  ]
+}
