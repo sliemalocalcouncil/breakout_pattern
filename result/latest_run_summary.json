@@ -1,79 +1,77 @@
 {
-  "run_id": "20260604T191320Z-e71f8b",
-  "asof": "2026-06-04T19:13:20.226039+00:00",
-  "n_signals": 298,
+  "run_id": "20260604T210905Z-72891a",
+  "asof": "2026-06-04T21:09:05.701991+00:00",
+  "n_signals": 297,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 75,
+    "double_bottom": 76,
     "vcp": 84,
     "base_on_base": 6,
-    "breakout_retest_hold": 26,
-    "bull_flag": 59,
+    "breakout_retest_hold": 24,
+    "bull_flag": 58,
     "cup_with_handle": 11,
-    "ascending_triangle": 28,
+    "ascending_triangle": 29,
     "high_tight_pullback": 4,
     "inverse_head_shoulders": 4,
     "tight_consolidation": 1
   },
   "by_state": {
     "invalidated": 14,
-    "absent": 116,
-    "forming": 86,
-    "setup": 50,
-    "candidate": 13,
-    "breakout_confirmed": 18,
+    "absent": 117,
+    "forming": 83,
+    "setup": 43,
+    "candidate": 19,
+    "breakout_confirmed": 20,
     "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 75,
+      "double_bottom": 76,
       "vcp": 84,
       "base_on_base": 6,
-      "breakout_retest_hold": 26,
-      "bull_flag": 59,
+      "breakout_retest_hold": 24,
+      "bull_flag": 58,
       "cup_with_handle": 11,
-      "ascending_triangle": 28,
+      "ascending_triangle": 29,
       "high_tight_pullback": 4,
       "inverse_head_shoulders": 4,
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "breakout": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 89,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
+      "ticker": "PL",
+      "pattern": "double_bottom",
+      "score": 68.24,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VICR",
+      "pattern": "double_bottom",
+      "score": 67.99,
+      "state": "candidate"
+    },
+    {
       "ticker": "IONQ",
       "pattern": "double_bottom",
-      "score": 69.53,
+      "score": 67.74,
       "state": "candidate"
     },
     {
       "ticker": "QBTS",
       "pattern": "double_bottom",
-      "score": 67.6,
-      "state": "candidate"
-    },
-    {
-      "ticker": "PL",
-      "pattern": "double_bottom",
-      "score": 65.32,
+      "score": 67.32,
       "state": "candidate"
     },
     {
       "ticker": "INTC",
       "pattern": "double_bottom",
-      "score": 65.14,
-      "state": "candidate"
-    },
-    {
-      "ticker": "MRVL",
-      "pattern": "bull_flag",
-      "score": 64.27,
+      "score": 66.18,
       "state": "candidate"
     }
   ]
