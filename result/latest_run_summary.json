@@ -1,13 +1,13 @@
 {
-  "run_id": "20260605T202136Z-872c1a",
-  "asof": "2026-06-05T20:21:36.556758+00:00",
-  "n_signals": 297,
+  "run_id": "20260605T215353Z-4613f6",
+  "asof": "2026-06-05T21:53:53.444534+00:00",
+  "n_signals": 295,
   "n_alerts_eligible": 0,
   "by_pattern": {
     "vcp": 84,
     "base_on_base": 6,
     "double_bottom": 76,
-    "breakout_retest_hold": 17,
+    "breakout_retest_hold": 15,
     "bull_flag": 66,
     "ascending_triangle": 32,
     "cup_with_handle": 11,
@@ -17,13 +17,12 @@
   },
   "by_state": {
     "forming": 55,
-    "invalidated": 81,
+    "invalidated": 79,
     "absent": 122,
     "retest_hold": 3,
     "setup": 14,
     "breakout_confirmed": 16,
-    "candidate": 5,
-    "breakout_failed": 1
+    "candidate": 6
   },
   "counters": {
     "detector_hits": {
@@ -38,11 +37,9 @@
       "high_tight_pullback": 1,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 2,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "invalidated": 10,
-      "breakout": 1,
-      "failed": 1
+      "retest": 1
     },
     "tickers_processed": 89,
     "tickers_with_errors": 0
@@ -52,31 +49,31 @@
     {
       "ticker": "ASML",
       "pattern": "breakout_retest_hold",
-      "score": 65.84,
+      "score": 65.9,
       "state": "candidate"
     },
     {
       "ticker": "AMAT",
       "pattern": "breakout_retest_hold",
-      "score": 64.15,
+      "score": 64.31,
       "state": "candidate"
     },
     {
       "ticker": "KLAC",
       "pattern": "breakout_retest_hold",
-      "score": 61.82,
-      "state": "breakout_failed"
+      "score": 61.94,
+      "state": "candidate"
     },
     {
       "ticker": "KLAC",
       "pattern": "double_bottom",
-      "score": 61.48,
+      "score": 61.6,
       "state": "candidate"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 61.46,
+      "score": 61.5,
       "state": "invalidated"
     }
   ]
