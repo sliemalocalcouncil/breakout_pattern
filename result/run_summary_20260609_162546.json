@@ -1,0 +1,80 @@
+{
+  "run_id": "20260609T162546Z-76d139",
+  "asof": "2026-06-09T16:25:46.313566+00:00",
+  "n_signals": 266,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 65,
+    "vcp": 84,
+    "inverse_head_shoulders": 4,
+    "base_on_base": 8,
+    "ascending_triangle": 24,
+    "breakout_retest_hold": 12,
+    "bull_flag": 56,
+    "cup_with_handle": 12,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "absent": 102,
+    "forming": 41,
+    "breakout_confirmed": 17,
+    "invalidated": 85,
+    "retest_hold": 3,
+    "candidate": 6,
+    "breakout_failed": 2,
+    "setup": 10
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 65,
+      "vcp": 84,
+      "inverse_head_shoulders": 4,
+      "base_on_base": 8,
+      "ascending_triangle": 24,
+      "breakout_retest_hold": 8,
+      "bull_flag": 56,
+      "cup_with_handle": 12,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 4,
+    "alerts_by_type": {
+      "invalidated": 8,
+      "retest": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 67.62,
+      "state": "candidate"
+    },
+    {
+      "ticker": "COHU",
+      "pattern": "double_bottom",
+      "score": 62.44,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AEVA",
+      "pattern": "double_bottom",
+      "score": 62.05,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ASML",
+      "pattern": "double_bottom",
+      "score": 61.75,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "double_bottom",
+      "score": 61.51,
+      "state": "candidate"
+    }
+  ]
+}
