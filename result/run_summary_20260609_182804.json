@@ -1,0 +1,78 @@
+{
+  "run_id": "20260609T182804Z-87024e",
+  "asof": "2026-06-09T18:28:04.168907+00:00",
+  "n_signals": 265,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 66,
+    "vcp": 84,
+    "inverse_head_shoulders": 4,
+    "base_on_base": 8,
+    "ascending_triangle": 17,
+    "breakout_retest_hold": 17,
+    "bull_flag": 56,
+    "cup_with_handle": 12,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 49,
+    "absent": 120,
+    "breakout_confirmed": 21,
+    "invalidated": 43,
+    "candidate": 9,
+    "setup": 21,
+    "retest_hold": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 66,
+      "vcp": 84,
+      "inverse_head_shoulders": 4,
+      "base_on_base": 8,
+      "ascending_triangle": 17,
+      "breakout_retest_hold": 17,
+      "bull_flag": 56,
+      "cup_with_handle": 12,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "breakout": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 65.66,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "breakout_retest_hold",
+      "score": 64.68,
+      "state": "setup"
+    },
+    {
+      "ticker": "AEVA",
+      "pattern": "double_bottom",
+      "score": 64.62,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "double_bottom",
+      "score": 64.01,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "double_bottom",
+      "score": 63.51,
+      "state": "candidate"
+    }
+  ]
+}
