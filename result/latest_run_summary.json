@@ -1,6 +1,6 @@
 {
-  "run_id": "20260611T201038Z-98d1b5",
-  "asof": "2026-06-11T20:10:38.747991+00:00",
+  "run_id": "20260611T222105Z-8c980a",
+  "asof": "2026-06-11T22:21:05.251828+00:00",
   "n_signals": 231,
   "n_alerts_eligible": 0,
   "by_pattern": {
@@ -15,12 +15,13 @@
     "high_tight_pullback": 2
   },
   "by_state": {
-    "setup": 51,
-    "forming": 48,
+    "setup": 52,
+    "forming": 46,
     "absent": 77,
     "invalidated": 24,
-    "breakout_confirmed": 22,
-    "candidate": 9
+    "breakout_confirmed": 17,
+    "candidate": 10,
+    "retest_hold": 5
   },
   "counters": {
     "detector_hits": {
@@ -35,10 +36,7 @@
       "high_tight_pullback": 2
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "invalidated": 2,
-      "breakout": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 89,
     "tickers_with_errors": 0
   },
@@ -47,32 +45,32 @@
     {
       "ticker": "APH",
       "pattern": "double_bottom",
-      "score": 65.2,
+      "score": 65.92,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ASX",
+      "pattern": "double_bottom",
+      "score": 64.61,
       "state": "candidate"
     },
     {
       "ticker": "MU",
       "pattern": "double_bottom",
-      "score": 63.77,
+      "score": 64.12,
       "state": "setup"
-    },
-    {
-      "ticker": "FLEX",
-      "pattern": "double_bottom",
-      "score": 63.31,
-      "state": "setup"
-    },
-    {
-      "ticker": "ASX",
-      "pattern": "double_bottom",
-      "score": 63.2,
-      "state": "candidate"
     },
     {
       "ticker": "QBTS",
       "pattern": "double_bottom",
-      "score": 63.0,
+      "score": 63.07,
       "state": "candidate"
+    },
+    {
+      "ticker": "FLEX",
+      "pattern": "double_bottom",
+      "score": 62.97,
+      "state": "setup"
     }
   ]
 }
