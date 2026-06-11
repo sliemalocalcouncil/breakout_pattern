@@ -1,0 +1,78 @@
+{
+  "run_id": "20260611T201038Z-98d1b5",
+  "asof": "2026-06-11T20:10:38.747991+00:00",
+  "n_signals": 231,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 73,
+    "bull_flag": 30,
+    "vcp": 85,
+    "inverse_head_shoulders": 7,
+    "base_on_base": 8,
+    "breakout_retest_hold": 7,
+    "ascending_triangle": 10,
+    "cup_with_handle": 9,
+    "high_tight_pullback": 2
+  },
+  "by_state": {
+    "setup": 51,
+    "forming": 48,
+    "absent": 77,
+    "invalidated": 24,
+    "breakout_confirmed": 22,
+    "candidate": 9
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 73,
+      "bull_flag": 30,
+      "vcp": 85,
+      "inverse_head_shoulders": 7,
+      "base_on_base": 8,
+      "breakout_retest_hold": 7,
+      "ascending_triangle": 10,
+      "cup_with_handle": 9,
+      "high_tight_pullback": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 2,
+      "breakout": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 65.2,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MU",
+      "pattern": "double_bottom",
+      "score": 63.77,
+      "state": "setup"
+    },
+    {
+      "ticker": "FLEX",
+      "pattern": "double_bottom",
+      "score": 63.31,
+      "state": "setup"
+    },
+    {
+      "ticker": "ASX",
+      "pattern": "double_bottom",
+      "score": 63.2,
+      "state": "candidate"
+    },
+    {
+      "ticker": "QBTS",
+      "pattern": "double_bottom",
+      "score": 63.0,
+      "state": "candidate"
+    }
+  ]
+}
