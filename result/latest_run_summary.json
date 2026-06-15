@@ -1,44 +1,44 @@
 {
-  "run_id": "20260615T182039Z-41192a",
-  "asof": "2026-06-15T18:20:39.385857+00:00",
-  "n_signals": 262,
+  "run_id": "20260615T212934Z-35cf47",
+  "asof": "2026-06-15T21:29:34.934646+00:00",
+  "n_signals": 290,
   "n_alerts_eligible": 3,
   "by_pattern": {
-    "double_bottom": 74,
-    "bull_flag": 17,
+    "double_bottom": 72,
+    "bull_flag": 24,
     "vcp": 85,
-    "ascending_triangle": 16,
+    "ascending_triangle": 15,
     "base_on_base": 8,
     "breakout_retest_hold": 42,
     "cup_with_handle": 9,
-    "inverse_head_shoulders": 9,
-    "high_tight_pullback": 2
+    "high_tight_pullback": 26,
+    "inverse_head_shoulders": 9
   },
   "by_state": {
-    "forming": 33,
-    "absent": 87,
-    "setup": 111,
+    "absent": 92,
+    "forming": 50,
+    "setup": 90,
+    "candidate": 33,
     "invalidated": 10,
-    "candidate": 10,
-    "breakout_failed": 2,
-    "breakout_confirmed": 9
+    "breakout_confirmed": 15
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 74,
-      "bull_flag": 17,
+      "double_bottom": 72,
+      "bull_flag": 24,
       "vcp": 85,
-      "ascending_triangle": 16,
+      "ascending_triangle": 15,
       "base_on_base": 8,
-      "breakout_retest_hold": 41,
+      "breakout_retest_hold": 42,
       "cup_with_handle": 9,
-      "inverse_head_shoulders": 9,
-      "high_tight_pullback": 2
+      "high_tight_pullback": 26,
+      "inverse_head_shoulders": 9
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "setup": 3,
-      "invalidated": 1
+      "invalidated": 1,
+      "breakout": 1,
+      "watch": 1
     },
     "tickers_processed": 89,
     "tickers_with_errors": 0
@@ -48,31 +48,31 @@
     {
       "ticker": "ANET",
       "pattern": "breakout_retest_hold",
-      "score": 73.01,
+      "score": 74.07,
       "state": "setup"
     },
     {
-      "ticker": "NVT",
-      "pattern": "breakout_retest_hold",
-      "score": 71.25,
-      "state": "setup"
+      "ticker": "KLAC",
+      "pattern": "high_tight_pullback",
+      "score": 71.33,
+      "state": "candidate"
     },
     {
       "ticker": "POWI",
       "pattern": "breakout_retest_hold",
-      "score": 70.65,
+      "score": 70.31,
       "state": "setup"
     },
     {
-      "ticker": "QCOM",
-      "pattern": "breakout_retest_hold",
-      "score": 67.18,
+      "ticker": "COHU",
+      "pattern": "high_tight_pullback",
+      "score": 69.61,
       "state": "candidate"
     },
     {
-      "ticker": "CARR",
+      "ticker": "DIOD",
       "pattern": "breakout_retest_hold",
-      "score": 66.87,
+      "score": 69.25,
       "state": "setup"
     }
   ]
