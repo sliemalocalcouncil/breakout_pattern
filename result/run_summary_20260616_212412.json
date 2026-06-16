@@ -1,0 +1,81 @@
+{
+  "run_id": "20260616T212412Z-f93c13",
+  "asof": "2026-06-16T21:24:12.779283+00:00",
+  "n_signals": 330,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 70,
+    "bull_flag": 40,
+    "vcp": 85,
+    "ascending_triangle": 29,
+    "base_on_base": 8,
+    "breakout_retest_hold": 49,
+    "cup_with_handle": 9,
+    "high_tight_pullback": 26,
+    "inverse_head_shoulders": 14
+  },
+  "by_state": {
+    "absent": 115,
+    "forming": 100,
+    "setup": 52,
+    "breakout_confirmed": 19,
+    "invalidated": 15,
+    "candidate": 25,
+    "breakout_failed": 4
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 70,
+      "bull_flag": 40,
+      "vcp": 85,
+      "ascending_triangle": 29,
+      "base_on_base": 8,
+      "breakout_retest_hold": 49,
+      "cup_with_handle": 9,
+      "high_tight_pullback": 26,
+      "inverse_head_shoulders": 14
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "watch": 2,
+      "breakout": 1,
+      "failed": 1
+    },
+    "tickers_processed": 89,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ANET",
+      "pattern": "breakout_retest_hold",
+      "score": 72.8,
+      "state": "setup"
+    },
+    {
+      "ticker": "CW",
+      "pattern": "breakout_retest_hold",
+      "score": 71.9,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "breakout_retest_hold",
+      "score": 71.01,
+      "state": "candidate"
+    },
+    {
+      "ticker": "JCI",
+      "pattern": "breakout_retest_hold",
+      "score": 67.99,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DIOD",
+      "pattern": "breakout_retest_hold",
+      "score": 67.48,
+      "state": "candidate"
+    }
+  ]
+}

@@ -1,46 +1,46 @@
 {
-  "run_id": "20260616T182437Z-91ac09",
-  "asof": "2026-06-16T18:24:37.562421+00:00",
-  "n_signals": 294,
-  "n_alerts_eligible": 2,
+  "run_id": "20260616T212412Z-f93c13",
+  "asof": "2026-06-16T21:24:12.779283+00:00",
+  "n_signals": 330,
+  "n_alerts_eligible": 3,
   "by_pattern": {
-    "double_bottom": 71,
-    "bull_flag": 26,
+    "double_bottom": 70,
+    "bull_flag": 40,
     "vcp": 85,
-    "ascending_triangle": 19,
+    "ascending_triangle": 29,
     "base_on_base": 8,
-    "breakout_retest_hold": 54,
+    "breakout_retest_hold": 49,
     "cup_with_handle": 9,
-    "high_tight_pullback": 10,
-    "inverse_head_shoulders": 12
+    "high_tight_pullback": 26,
+    "inverse_head_shoulders": 14
   },
   "by_state": {
-    "absent": 99,
-    "forming": 61,
-    "invalidated": 18,
-    "setup": 87,
-    "candidate": 11,
-    "breakout_confirmed": 14,
-    "retest_hold": 3,
-    "breakout_failed": 1
+    "absent": 115,
+    "forming": 100,
+    "setup": 52,
+    "breakout_confirmed": 19,
+    "invalidated": 15,
+    "candidate": 25,
+    "breakout_failed": 4
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 71,
-      "bull_flag": 26,
+      "double_bottom": 70,
+      "bull_flag": 40,
       "vcp": 85,
-      "ascending_triangle": 19,
+      "ascending_triangle": 29,
       "base_on_base": 8,
-      "breakout_retest_hold": 48,
+      "breakout_retest_hold": 49,
       "cup_with_handle": 9,
-      "high_tight_pullback": 10,
-      "inverse_head_shoulders": 12
+      "high_tight_pullback": 26,
+      "inverse_head_shoulders": 14
     },
-    "active_monitor_events": 6,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "setup": 2,
-      "retest": 1,
-      "breakout": 1
+      "invalidated": 1,
+      "watch": 2,
+      "breakout": 1,
+      "failed": 1
     },
     "tickers_processed": 89,
     "tickers_with_errors": 0
@@ -50,32 +50,32 @@
     {
       "ticker": "ANET",
       "pattern": "breakout_retest_hold",
-      "score": 73.34,
+      "score": 72.8,
       "state": "setup"
     },
     {
-      "ticker": "NVT",
+      "ticker": "CW",
       "pattern": "breakout_retest_hold",
-      "score": 70.07,
-      "state": "setup"
-    },
-    {
-      "ticker": "JCI",
-      "pattern": "breakout_retest_hold",
-      "score": 69.08,
-      "state": "setup"
+      "score": 71.9,
+      "state": "candidate"
     },
     {
       "ticker": "APH",
       "pattern": "breakout_retest_hold",
-      "score": 68.06,
-      "state": "retest_hold"
+      "score": 71.01,
+      "state": "candidate"
+    },
+    {
+      "ticker": "JCI",
+      "pattern": "breakout_retest_hold",
+      "score": 67.99,
+      "state": "candidate"
     },
     {
       "ticker": "DIOD",
       "pattern": "breakout_retest_hold",
-      "score": 67.46,
-      "state": "setup"
+      "score": 67.48,
+      "state": "candidate"
     }
   ]
 }
