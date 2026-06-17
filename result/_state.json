@@ -571,7 +571,7 @@
     "last_alert_at": "2026-06-04T16:45:43.475884+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 36.09
   },
@@ -798,7 +798,7 @@
     "last_alert_at": "2026-06-05T16:26:25.993204+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 290.29
   },
@@ -823,7 +823,7 @@
   },
   "BELFB::vcp": {
     "invalid_below": 255.28245,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 283.225
   },
@@ -909,7 +909,7 @@
     "last_alert_at": "2026-04-28T16:08:29.890096+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 106.8728
   },
@@ -1380,7 +1380,7 @@
     "last_alert_at": "2026-05-29T17:28:09.173847+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 175.585
   },
@@ -1801,7 +1801,7 @@
     "last_alert_at": "2026-06-10T21:36:26.396961+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 77.905
   },
@@ -1818,13 +1818,13 @@
   },
   "IR::inverse_head_shoulders": {
     "invalid_below": 68.7924,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 77.905
   },
   "IR::vcp": {
     "invalid_below": 68.1226985,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 72.95
   },
@@ -2186,7 +2186,7 @@
   },
   "MMM::vcp": {
     "invalid_below": 146.17203,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 156.69
   },
@@ -2197,7 +2197,7 @@
   },
   "MOD::breakout_retest_hold": {
     "invalid_below": 281.734299,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 276.8297
   },
@@ -2536,7 +2536,7 @@
     "last_alert_at": "2026-05-12T16:16:33.968238+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 10.59
   },
@@ -2720,7 +2720,7 @@
     "last_alert_at": "2026-06-15T18:21:25.989201+00:00",
     "last_alert_score": 70.65,
     "last_alert_type": "setup",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 78.4
   },
@@ -2859,7 +2859,7 @@
     "last_alert_at": "2026-06-05T18:23:00.549442+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 10.09
   },
@@ -2993,8 +2993,8 @@
   },
   "RTX::ascending_triangle": {
     "invalid_below": 174.4041,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
+    "state": "retest_hold",
     "trigger": 186.455
   },
   "RTX::base_on_base": {
@@ -3013,13 +3013,13 @@
   },
   "RTX::double_bottom": {
     "invalid_below": 170.799,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
+    "state": "retest_hold",
     "trigger": 186.455
   },
   "RTX::vcp": {
     "invalid_below": 169.96175,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 181.55
   },
@@ -3174,7 +3174,7 @@
     "last_alert_at": "2026-05-15T17:24:10.281411+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 182.96
   },
@@ -3242,7 +3242,7 @@
     "last_alert_at": "2026-06-10T19:29:46.570983+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 473.9999
   },
@@ -3253,19 +3253,19 @@
   },
   "TT::cup_with_handle": {
     "invalid_below": 432.8287,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 466.82
   },
   "TT::double_bottom": {
     "invalid_below": 447.3575485,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 473.9999
   },
   "TT::vcp": {
     "invalid_below": 432.8287,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 471.79
   },
@@ -3329,7 +3329,7 @@
     "last_alert_at": "2026-06-05T16:28:00.614055+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 11.37
   },
@@ -3529,7 +3529,7 @@
   },
   "VSH::breakout_retest_hold": {
     "invalid_below": 59.251994999999994,
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 59.93
   },
@@ -3573,7 +3573,7 @@
     "last_alert_at": "2026-06-03T18:17:00.980100+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-06-24T20:00:00+00:00",
+    "monitored_until": "2026-06-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 46.105
   },
