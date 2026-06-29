@@ -1473,7 +1473,7 @@
     "last_alert_score": 60.01,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "candidate",
     "trigger": 230.5
   },
   "GLW::high_tight_pullback": {
@@ -1813,7 +1813,7 @@
     "trigger": 270.4599
   },
   "INTU::double_bottom": {
-    "invalid_below": 249.41185000000002,
+    "invalid_below": 250.23925,
     "last_alert_at": "2026-06-05T16:26:56.236318+00:00",
     "last_alert_score": 39.98,
     "last_alert_type": "invalidated",
@@ -1826,7 +1826,7 @@
     "last_alert_at": "2026-06-11T20:11:21.822341+00:00",
     "last_alert_score": 36.34,
     "last_alert_type": "invalidated",
-    "state": "invalidated",
+    "state": "absent",
     "trigger": 363.175
   },
   "IONQ::ascending_triangle": {
@@ -2924,8 +2924,8 @@
     "last_alert_at": "2026-05-18T16:44:19.427472+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-01T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 199.48
   },
   "QCOM::bull_flag": {
@@ -2934,13 +2934,13 @@
     "trigger": 233.444
   },
   "QCOM::double_bottom": {
-    "invalid_below": 187.24849999999998,
+    "invalid_below": 188.15470000000002,
     "last_alert_at": "2026-06-05T16:27:36.246699+00:00",
     "last_alert_score": 53.65,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "absent",
-    "trigger": 233.444
+    "trigger": 206.1
   },
   "QCOM::high_tight_pullback": {
     "invalid_below": 209.7656,
@@ -3661,7 +3661,7 @@
   "VSH::bull_flag": {
     "invalid_below": 52.70735,
     "state": "absent",
-    "trigger": 69.47
+    "trigger": 69.4
   },
   "VSH::double_bottom": {
     "invalid_below": 52.70735,
@@ -3669,13 +3669,18 @@
     "last_alert_score": 53.34,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 69.47
+    "state": "candidate",
+    "trigger": 62.63
   },
   "VSH::high_tight_pullback": {
     "invalid_below": 62.1929,
     "state": "absent",
     "trigger": 69.47
+  },
+  "VSH::inverse_head_shoulders": {
+    "invalid_below": 52.70735,
+    "state": "forming",
+    "trigger": 62.63
   },
   "VSH::vcp": {
     "invalid_below": 52.85509999999999,
