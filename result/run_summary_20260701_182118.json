@@ -1,0 +1,373 @@
+{
+  "run_id": "20260701T182118Z-316f1b",
+  "asof": "2026-07-01T18:21:18.049898+00:00",
+  "n_signals": 84,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "vcp": 30,
+    "base_on_base": 3,
+    "double_bottom": 23,
+    "breakout_retest_hold": 7,
+    "bull_flag": 10,
+    "ascending_triangle": 3,
+    "inverse_head_shoulders": 3,
+    "cup_with_handle": 2,
+    "high_tight_pullback": 3
+  },
+  "by_state": {
+    "invalidated": 3,
+    "forming": 16,
+    "setup": 21,
+    "absent": 32,
+    "candidate": 4,
+    "breakout_confirmed": 8
+  },
+  "counters": {
+    "detector_hits": {
+      "vcp": 30,
+      "base_on_base": 3,
+      "double_bottom": 23,
+      "breakout_retest_hold": 7,
+      "bull_flag": 10,
+      "ascending_triangle": 3,
+      "inverse_head_shoulders": 3,
+      "cup_with_handle": 2,
+      "high_tight_pullback": 3
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 1
+    },
+    "tickers_processed": 30,
+    "tickers_with_errors": 59
+  },
+  "errors": [
+    {
+      "ticker": "TMUS",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/TMUS/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "ETN",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ETN/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "VRT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/VRT/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "DIOD",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/DIOD/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "COHU",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/COHU/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "VSH",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/VSH/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "VICR",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/VICR/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "WOLF",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/WOLF/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "JCI",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/JCI/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "SBGSY",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/SBGSY/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "NVT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/NVT/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "ALFVY",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ALFVY/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "APH",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/APH/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "AXTI",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AXTI/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "HPE",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/HPE/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "AEVA",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AEVA/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "INTU",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/INTU/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "NOC",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/NOC/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "MSFT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/MSFT/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "MMM",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/MMM/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "LHX",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/LHX/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "IR",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/IR/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "HEI",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/HEI/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "GOOG",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/GOOG/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "GD",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/GD/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "BA",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/BA/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "ASTS",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ASTS/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "AMZN",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AMZN/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "TSM",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/TSM/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "QCOM",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/QCOM/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "MU",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/MU/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "MRVL",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/MRVL/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "LRCX",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/LRCX/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "INTC",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/INTC/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "AVGO",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AVGO/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "AMAT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AMAT/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "AMD",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/AMD/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "ADI",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ADI/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "XE",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/XE/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "UUUU",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/UUUU/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "OKLO",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/OKLO/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "NXE",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/NXE/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "NNE",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/NNE/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "DNN",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/DNN/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "CCJ",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/CCJ/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "BWXT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/BWXT/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "RGTI",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/RGTI/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "QUBT",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/QUBT/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "IONQ",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/IONQ/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "IBM",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/IBM/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "HON",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/HON/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "BABA",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/BABA/range/30/minute/2026-05-17/2026-07-01: None"
+    },
+    {
+      "ticker": "ARQQ",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ARQQ/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "ACN",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ACN/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "TCEHY",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/TCEHY/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "SAPGF",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/SAPGF/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "COF",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/COF/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "CRM",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/CRM/range/1/day/2025-02-16/2026-07-01: None"
+    },
+    {
+      "ticker": "ANET",
+      "phase": "scan",
+      "error": "polygon failed after retries on /v2/aggs/ticker/ANET/range/1/day/2025-02-16/2026-07-01: None"
+    }
+  ],
+  "top_5": [
+    {
+      "ticker": "ASML",
+      "pattern": "breakout_retest_hold",
+      "score": 72.02,
+      "state": "setup"
+    },
+    {
+      "ticker": "TT",
+      "pattern": "breakout_retest_hold",
+      "score": 67.96,
+      "state": "setup"
+    },
+    {
+      "ticker": "AOSL",
+      "pattern": "double_bottom",
+      "score": 67.5,
+      "state": "setup"
+    },
+    {
+      "ticker": "KEYS",
+      "pattern": "breakout_retest_hold",
+      "score": 66.35,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "ASML",
+      "pattern": "high_tight_pullback",
+      "score": 65.11,
+      "state": "candidate"
+    }
+  ]
+}
