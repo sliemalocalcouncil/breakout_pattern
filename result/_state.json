@@ -871,13 +871,13 @@
     "trigger": 311.67
   },
   "BELFB::double_bottom": {
-    "invalid_below": 294.09145,
+    "invalid_below": 245.28470000000002,
     "last_alert_at": "2026-07-03T15:52:03.983276+00:00",
     "last_alert_score": 53.19,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 335.285
+    "state": "forming",
+    "trigger": 279.865
   },
   "BELFB::high_tight_pullback": {
     "invalid_below": 307.8322,
@@ -885,13 +885,13 @@
     "trigger": 335.285
   },
   "BELFB::vcp": {
-    "invalid_below": 277.912825,
+    "invalid_below": 244.5558,
     "last_alert_at": "2026-07-09T16:25:02.654123+00:00",
     "last_alert_score": 42.69,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 311.67
+    "state": "absent",
+    "trigger": 335.285
   },
   "BWXT::ascending_triangle": {
     "invalid_below": 193.30625,
@@ -1813,35 +1813,41 @@
     "trigger": 277.57
   },
   "INTU::breakout_retest_hold": {
-    "invalid_below": 275.50710000000004,
+    "invalid_below": 268.983,
     "last_alert_at": "2026-06-03T18:17:54.979132+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-15T20:00:00+00:00",
+    "monitored_until": "2026-07-22T20:00:00+00:00",
     "state": "setup",
-    "trigger": 277.31
+    "trigger": 274.97
   },
   "INTU::bull_flag": {
-    "invalid_below": 274.11565,
-    "state": "forming",
-    "trigger": 283.79
+    "invalid_below": 267.6245,
+    "state": "absent",
+    "trigger": 296.0
   },
   "INTU::double_bottom": {
-    "invalid_below": 252.2191,
+    "invalid_below": 263.97015,
     "last_alert_at": "2026-06-05T16:26:56.236318+00:00",
     "last_alert_score": 39.98,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-15T20:00:00+00:00",
+    "monitored_until": null,
+    "state": "forming",
+    "trigger": 296.0
+  },
+  "INTU::inverse_head_shoulders": {
+    "invalid_below": 255.47945,
+    "monitored_until": "2026-07-22T20:00:00+00:00",
     "state": "setup",
-    "trigger": 277.57
+    "trigger": 280.35
   },
   "INTU::vcp": {
-    "invalid_below": 263.98985,
+    "invalid_below": 255.47945,
     "last_alert_at": "2026-06-11T20:11:21.822341+00:00",
     "last_alert_score": 36.34,
     "last_alert_type": "invalidated",
     "state": "absent",
-    "trigger": 363.175
+    "trigger": 283.79
   },
   "IONQ::ascending_triangle": {
     "invalid_below": 64.82285,
@@ -2376,13 +2382,13 @@
     "trigger": 251.7
   },
   "MRVL::double_bottom": {
-    "invalid_below": 228.5397,
+    "invalid_below": 212.0508,
     "last_alert_at": "2026-06-09T16:28:09.795176+00:00",
     "last_alert_score": 57.05,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 260.46
+    "state": "forming",
+    "trigger": 251.7
   },
   "MRVL::high_tight_pullback": {
     "invalid_below": 292.65335,
@@ -2398,7 +2404,7 @@
   "MRVL::vcp": {
     "invalid_below": 219.5959,
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "forming",
     "trigger": 300.0
   },
   "MSFT::ascending_triangle": {
@@ -2622,27 +2628,27 @@
     "trigger": 178.0
   },
   "NVT::breakout_retest_hold": {
-    "invalid_below": 154.1925,
+    "invalid_below": 158.7663,
     "last_alert_at": "2026-06-30T21:58:02.843608+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
-    "monitored_until": "2026-07-21T20:00:00+00:00",
+    "monitored_until": "2026-07-22T20:00:00+00:00",
     "state": "setup",
-    "trigger": 155.79
+    "trigger": 159.8599
   },
   "NVT::bull_flag": {
-    "invalid_below": 153.41375,
-    "state": "absent",
-    "trigger": 163.5
+    "invalid_below": 157.96445,
+    "state": "forming",
+    "trigger": 165.99
   },
   "NVT::double_bottom": {
-    "invalid_below": 153.41375,
+    "invalid_below": 153.82745,
     "last_alert_at": "2026-07-03T15:54:05.582236+00:00",
     "last_alert_score": 53.67,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 169.66
+    "trigger": 165.34
   },
   "NVT::vcp": {
     "invalid_below": 144.3616,
