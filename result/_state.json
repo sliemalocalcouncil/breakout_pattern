@@ -2180,20 +2180,20 @@
   "LMT::ascending_triangle": {
     "invalid_below": 504.9307,
     "state": "forming",
-    "trigger": 588.41
+    "trigger": 593.7699
   },
   "LMT::base_on_base": {
     "invalid_below": 482.69925,
-    "monitored_until": "2026-08-04T20:00:00+00:00",
+    "monitored_until": "2026-08-05T20:00:00+00:00",
     "state": "setup",
     "trigger": 547.47
   },
   "LMT::breakout_retest_hold": {
-    "invalid_below": 572.0913,
+    "invalid_below": 570.9629970000001,
     "last_alert_at": "2026-06-30T22:01:03.384718+00:00",
     "last_alert_score": 52.08,
     "last_alert_type": "failed",
-    "monitored_until": "2026-08-04T20:00:00+00:00",
+    "monitored_until": "2026-08-05T20:00:00+00:00",
     "state": "setup",
     "trigger": 575.9995
   },
@@ -2209,13 +2209,13 @@
     "trigger": 588.41
   },
   "LMT::high_tight_pullback": {
-    "invalid_below": 569.20195,
+    "invalid_below": 568.0793455,
     "state": "forming",
-    "trigger": 588.41
+    "trigger": 593.7699
   },
   "LMT::vcp": {
     "invalid_below": 479.84274999999997,
-    "monitored_until": "2026-08-04T20:00:00+00:00",
+    "monitored_until": "2026-08-05T20:00:00+00:00",
     "state": "setup",
     "trigger": 527.33
   },
@@ -3282,12 +3282,12 @@
     "trigger": 63.06
   },
   "SMR::ascending_triangle": {
-    "invalid_below": 7.939100000000001,
+    "invalid_below": 7.683,
     "last_alert_at": "2026-06-05T16:28:04.288496+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 8.95
   },
   "SMR::breakout_retest_hold": {
@@ -3300,18 +3300,18 @@
     "trigger": 10.295
   },
   "SMR::bull_flag": {
-    "invalid_below": 7.939100000000001,
+    "invalid_below": 7.683,
     "state": "absent",
     "trigger": 8.95
   },
   "SMR::double_bottom": {
-    "invalid_below": 7.939100000000001,
+    "invalid_below": 7.461375,
     "last_alert_at": "2026-07-21T20:18:01.892282+00:00",
     "last_alert_score": 52.06,
     "last_alert_type": "breakout",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 8.92
+    "trigger": 8.95
   },
   "SMR::high_tight_pullback": {
     "invalid_below": 8.234599999999999,
