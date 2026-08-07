@@ -144,13 +144,13 @@
     "trigger": 739.67
   },
   "AMAT::breakout_retest_hold": {
-    "invalid_below": 525.2643,
+    "invalid_below": 505.9395,
     "last_alert_at": "2026-07-27T21:21:03.515922+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": "2026-08-14T20:00:00+00:00",
     "state": "setup",
-    "trigger": 521.005
+    "trigger": 508.54
   },
   "AMAT::bull_flag": {
     "invalid_below": 434.8184,
@@ -159,16 +159,16 @@
     "trigger": 562.8
   },
   "AMAT::double_bottom": {
-    "invalid_below": 522.61145,
+    "invalid_below": 486.23539999999997,
     "last_alert_at": "2026-07-03T20:29:06.373735+00:00",
     "last_alert_score": 51.37,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 556.7
+    "state": "absent",
+    "trigger": 554.08
   },
   "AMAT::high_tight_pullback": {
-    "invalid_below": 522.61145,
+    "invalid_below": 503.38425,
     "state": "forming",
     "trigger": 554.08
   },
@@ -1358,8 +1358,8 @@
   "ETN::ascending_triangle": {
     "invalid_below": 352.753125,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 453.4999
+    "state": "forming",
+    "trigger": 457.78
   },
   "ETN::base_on_base": {
     "invalid_below": 362.12539999999996,
@@ -1393,9 +1393,9 @@
     "trigger": 429.38
   },
   "ETN::high_tight_pullback": {
-    "invalid_below": 441.3370315,
+    "invalid_below": 441.580425,
     "state": "candidate",
-    "trigger": 453.4999
+    "trigger": 457.78
   },
   "ETN::inverse_head_shoulders": {
     "invalid_below": 376.27,
@@ -1603,10 +1603,10 @@
     "trigger": 374.35
   },
   "HEI::ascending_triangle": {
-    "invalid_below": 336.60405000000003,
+    "invalid_below": 343.366075,
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 354.0
+    "state": "absent",
+    "trigger": 376.86
   },
   "HEI::base_on_base": {
     "invalid_below": 312.349804,
@@ -1614,15 +1614,18 @@
     "trigger": 354.7
   },
   "HEI::breakout_retest_hold": {
-    "invalid_below": 362.2905,
-    "monitored_until": "2026-08-14T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "invalid_below": 359.0532,
+    "last_alert_at": "2026-08-07T18:54:03.669120+00:00",
+    "last_alert_score": 59.4,
+    "last_alert_type": "failed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 364.28
   },
   "HEI::bull_flag": {
-    "invalid_below": 360.46074999999996,
-    "state": "forming",
-    "trigger": 371.455
+    "invalid_below": 357.2398,
+    "state": "absent",
+    "trigger": 376.86
   },
   "HEI::cup_with_handle": {
     "invalid_below": 329.72875,
@@ -2087,9 +2090,15 @@
     "trigger": 332.35
   },
   "KLAC::ascending_triangle": {
-    "invalid_below": 207.11989,
+    "invalid_below": 171.981,
     "state": "forming",
-    "trigger": 221.0
+    "trigger": 201.16
+  },
+  "KLAC::breakout_retest_hold": {
+    "invalid_below": 183.91230000000002,
+    "monitored_until": "2026-08-14T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 188.59
   },
   "KLAC::bull_flag": {
     "invalid_below": 204.3284,
@@ -2097,26 +2106,26 @@
     "trigger": 221.0
   },
   "KLAC::double_bottom": {
-    "invalid_below": 207.2243,
+    "invalid_below": 182.98345,
     "last_alert_at": "2026-05-06T15:59:39.056538+00:00",
     "last_alert_score": 65.03,
     "last_alert_type": "breakout",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 228.79
+    "trigger": 201.16
   },
   "KLAC::high_tight_pullback": {
-    "invalid_below": 238.1336,
+    "invalid_below": 182.98345,
     "last_alert_at": "2026-06-15T21:31:09.573058+00:00",
     "last_alert_score": 71.33,
     "last_alert_type": "watch",
-    "state": "forming",
-    "trigger": 265.43
+    "state": "absent",
+    "trigger": 201.16
   },
   "KLAC::inverse_head_shoulders": {
-    "invalid_below": 207.6971,
+    "invalid_below": 171.981,
     "state": "absent",
-    "trigger": 246.32
+    "trigger": 201.16
   },
   "KLAC::vcp": {
     "invalid_below": 201.5151415,
@@ -2222,19 +2231,19 @@
     "trigger": 308.89
   },
   "LMT::ascending_triangle": {
-    "invalid_below": 548.2018485,
+    "invalid_below": 569.14285,
     "state": "forming",
     "trigger": 593.7699
   },
   "LMT::bull_flag": {
-    "invalid_below": 571.2015,
+    "invalid_below": 569.14285,
     "state": "forming",
     "trigger": 593.6899
   },
   "LMT::double_bottom": {
-    "invalid_below": 549.0981985,
+    "invalid_below": 569.14285,
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 593.7699
   },
   "LMT::high_tight_pullback": {
@@ -2249,10 +2258,10 @@
     "trigger": 593.7699
   },
   "LRCX::ascending_triangle": {
-    "invalid_below": 248.0033,
+    "invalid_below": 272.6920295,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 319.5
+    "state": "forming",
+    "trigger": 323.64
   },
   "LRCX::breakout_retest_hold": {
     "invalid_below": 274.076253,
@@ -2269,21 +2278,26 @@
     "trigger": 319.5
   },
   "LRCX::double_bottom": {
-    "invalid_below": 272.6920295,
+    "invalid_below": 289.24525,
     "last_alert_at": "2026-06-05T20:23:18.309857+00:00",
     "last_alert_score": 61.46,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
-    "trigger": 319.5
+    "state": "forming",
+    "trigger": 323.64
   },
   "LRCX::high_tight_pullback": {
-    "invalid_below": 363.86885,
+    "invalid_below": 289.24525,
     "last_alert_at": "2026-05-25T16:16:16.890385+00:00",
     "last_alert_score": 74.45,
     "last_alert_type": "watch",
     "state": "forming",
-    "trigger": 393.07
+    "trigger": 323.64
+  },
+  "LRCX::inverse_head_shoulders": {
+    "invalid_below": 272.6920295,
+    "state": "forming",
+    "trigger": 323.64
   },
   "LRCX::vcp": {
     "invalid_below": 294.17024999999995,
@@ -2660,10 +2674,10 @@
     "trigger": 552.625
   },
   "NVDA::ascending_triangle": {
-    "invalid_below": 199.2458,
+    "invalid_below": 187.81980000000001,
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 214.39
+    "state": "absent",
+    "trigger": 223.63
   },
   "NVDA::breakout_retest_hold": {
     "invalid_below": 203.90040000000002,
@@ -2692,15 +2706,15 @@
     "trigger": 214.39
   },
   "NVDA::high_tight_pullback": {
-    "invalid_below": 211.69619999999998,
+    "invalid_below": 214.01095,
     "state": "forming",
-    "trigger": 223.75
+    "trigger": 223.63
   },
   "NVDA::vcp": {
-    "invalid_below": 195.00045,
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 213.81
+    "invalid_below": 187.15984999999998,
+    "monitored_until": "2026-08-14T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 214.39
   },
   "NVT::ascending_triangle": {
     "invalid_below": 155.2951,
