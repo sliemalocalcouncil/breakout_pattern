@@ -1473,12 +1473,12 @@
   },
   "GD::cup_with_handle": {
     "invalid_below": 355.822385,
-    "monitored_until": "2026-08-14T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": "2026-08-17T20:00:00+00:00",
+    "state": "breakout_confirmed",
     "trigger": 380.71
   },
   "GD::double_bottom": {
-    "invalid_below": 375.62975,
+    "invalid_below": 377.5111,
     "monitored_until": null,
     "state": "forming",
     "trigger": 400.0
