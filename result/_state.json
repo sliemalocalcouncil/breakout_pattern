@@ -2687,10 +2687,10 @@
     "trigger": 565.42
   },
   "NVDA::ascending_triangle": {
-    "invalid_below": 187.81980000000001,
+    "invalid_below": 193.89724999999999,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 223.63
+    "state": "forming",
+    "trigger": 224.76
   },
   "NVDA::breakout_retest_hold": {
     "invalid_below": 203.90040000000002,
@@ -2702,9 +2702,9 @@
     "trigger": 207.74
   },
   "NVDA::bull_flag": {
-    "invalid_below": 189.84890000000001,
-    "state": "absent",
-    "trigger": 214.39
+    "invalid_below": 212.957,
+    "state": "forming",
+    "trigger": 224.76
   },
   "NVDA::cup_with_handle": {
     "invalid_below": 191.8189,
@@ -2713,10 +2713,10 @@
     "trigger": 216.825
   },
   "NVDA::double_bottom": {
-    "invalid_below": 189.84890000000001,
+    "invalid_below": 213.51845,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 214.39
+    "trigger": 224.76
   },
   "NVDA::high_tight_pullback": {
     "invalid_below": 214.01095,
@@ -2725,7 +2725,7 @@
   },
   "NVDA::vcp": {
     "invalid_below": 187.15984999999998,
-    "monitored_until": "2026-08-14T20:00:00+00:00",
+    "monitored_until": "2026-08-19T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.39
   },
