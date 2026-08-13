@@ -946,21 +946,21 @@
     "trigger": 66.135
   },
   "CARR::breakout_retest_hold": {
-    "invalid_below": 62.3898,
+    "invalid_below": 62.2611,
     "last_alert_at": "2026-08-12T16:52:02.582644+00:00",
     "last_alert_score": 59.63,
     "last_alert_type": "retest",
-    "monitored_until": "2026-08-19T20:00:00+00:00",
-    "state": "retest_hold",
+    "monitored_until": null,
+    "state": "candidate",
     "trigger": 63.27
   },
   "CARR::bull_flag": {
-    "invalid_below": 62.0747,
+    "invalid_below": 61.94665,
     "state": "absent",
     "trigger": 66.13
   },
   "CARR::cup_with_handle": {
-    "invalid_below": 62.0747,
+    "invalid_below": 61.94665,
     "state": "forming",
     "trigger": 66.135
   },
@@ -1400,19 +1400,19 @@
     "trigger": 135.67
   },
   "FLEX::breakout_retest_hold": {
-    "invalid_below": 116.38202399999999,
+    "invalid_below": 123.67575,
     "last_alert_at": "2026-06-29T16:53:03.381494+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-14T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 116.12
+    "monitored_until": null,
+    "state": "candidate",
+    "trigger": 125.4365
   },
   "FLEX::bull_flag": {
-    "invalid_below": 105.4935,
+    "invalid_below": 123.051125,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 119.39
+    "trigger": 130.3799
   },
   "FLEX::double_bottom": {
     "invalid_below": 118.5152,
@@ -3937,10 +3937,10 @@
     "trigger": 39.415
   },
   "VZ::ascending_triangle": {
-    "invalid_below": 44.408725,
+    "invalid_below": 45.403575,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 48.49
+    "state": "forming",
+    "trigger": 47.81
   },
   "VZ::base_on_base": {
     "invalid_below": 40.143675,
@@ -3967,10 +3967,10 @@
     "trigger": 49.01
   },
   "VZ::double_bottom": {
-    "invalid_below": 45.403575,
+    "invalid_below": 44.787949999999995,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 48.54
+    "state": "forming",
+    "trigger": 47.81
   },
   "VZ::inverse_head_shoulders": {
     "invalid_below": 43.63549999999999,
@@ -3980,7 +3980,7 @@
   "VZ::vcp": {
     "invalid_below": 44.408725,
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 49.01
   },
   "WOLF::ascending_triangle": {
