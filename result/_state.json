@@ -407,7 +407,7 @@
   },
   "APH::cup_with_handle": {
     "invalid_below": 162.77125,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 176.33
   },
   "APH::double_bottom": {
