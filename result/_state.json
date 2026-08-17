@@ -539,22 +539,22 @@
     "trigger": 1845.0
   },
   "ASML::breakout_retest_hold": {
-    "invalid_below": 1789.3062,
-    "monitored_until": null,
-    "state": "candidate",
+    "invalid_below": 1802.2059000000002,
+    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "state": "setup",
     "trigger": 1819.59
   },
   "ASML::bull_flag": {
-    "invalid_below": 1780.2693000000002,
-    "state": "candidate",
-    "trigger": 1845.0
+    "invalid_below": 1793.10385,
+    "state": "forming",
+    "trigger": 1873.685
   },
   "ASML::double_bottom": {
     "invalid_below": 1673.3081499999998,
     "last_alert_at": "2026-05-18T16:44:35.144899+00:00",
     "last_alert_score": 52.59,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-21T20:00:00+00:00",
+    "monitored_until": "2026-08-24T20:00:00+00:00",
     "state": "setup",
     "trigger": 1819.59
   },
@@ -625,23 +625,23 @@
     "trigger": 64.63
   },
   "ASX::ascending_triangle": {
-    "invalid_below": 35.96235,
-    "state": "candidate",
-    "trigger": 39.77
+    "invalid_below": 37.5679,
+    "state": "forming",
+    "trigger": 40.305
   },
   "ASX::breakout_retest_hold": {
-    "invalid_below": 38.94165,
+    "invalid_below": 37.7586,
     "last_alert_at": "2026-07-27T18:06:05.170254+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-20T20:00:00+00:00",
+    "monitored_until": "2026-08-24T20:00:00+00:00",
     "state": "setup",
-    "trigger": 38.87
+    "trigger": 38.1
   },
   "ASX::bull_flag": {
-    "invalid_below": 38.744975000000004,
-    "state": "candidate",
-    "trigger": 39.77
+    "invalid_below": 37.5679,
+    "state": "absent",
+    "trigger": 40.305
   },
   "ASX::double_bottom": {
     "invalid_below": 36.2086,
@@ -650,18 +650,12 @@
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 39.4425
+    "trigger": 40.305
   },
   "ASX::high_tight_pullback": {
     "invalid_below": 35.2236,
     "state": "forming",
     "trigger": 38.87
-  },
-  "ASX::inverse_head_shoulders": {
-    "invalid_below": 31.130925,
-    "monitored_until": "2026-08-14T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 34.84
   },
   "ASX::vcp": {
     "invalid_below": 30.653200000000002,
