@@ -859,6 +859,12 @@
     "state": "forming",
     "trigger": 291.4299
   },
+  "BELFB::breakout_retest_hold": {
+    "invalid_below": 293.91615,
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 296.65
+  },
   "BELFB::bull_flag": {
     "invalid_below": 232.22359999999998,
     "state": "absent",
@@ -870,7 +876,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 306.32
   },
   "BELFB::double_bottom": {
@@ -879,7 +885,7 @@
     "last_alert_score": 53.19,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 303.98
   },
   "BELFB::high_tight_pullback": {
@@ -893,7 +899,7 @@
     "last_alert_score": 42.69,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 306.32
   },
   "BWXT::ascending_triangle": {
@@ -2482,12 +2488,6 @@
     "state": "setup",
     "trigger": 214.92
   },
-  "MSFT::breakout_retest_hold": {
-    "invalid_below": 499.28175,
-    "monitored_until": "2026-08-18T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 505.18
-  },
   "MSFT::bull_flag": {
     "invalid_below": 484.1472,
     "monitored_until": null,
@@ -3293,14 +3293,14 @@
     "trigger": 168.644
   },
   "SBGSY::ascending_triangle": {
-    "invalid_below": 69.01894999999999,
+    "invalid_below": 69.72815,
     "monitored_until": null,
     "state": "forming",
     "trigger": 71.98
   },
   "SBGSY::breakout_retest_hold": {
     "invalid_below": 70.08210000000001,
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 70.76
   },
@@ -3317,7 +3317,7 @@
   "SBGSY::double_bottom": {
     "invalid_below": 68.12259999999999,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 71.98
   },
   "SBGSY::high_tight_pullback": {
@@ -3332,7 +3332,7 @@
   },
   "SBGSY::vcp": {
     "invalid_below": 56.9724,
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "setup",
     "trigger": 61.78
   },
