@@ -1325,7 +1325,7 @@
     "last_alert_at": "2026-07-29T15:46:02.869432+00:00",
     "last_alert_score": 45.97,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 95.955
   },
@@ -3080,7 +3080,7 @@
     "trigger": 9.26
   },
   "QUBT::bull_flag": {
-    "invalid_below": 8.628698499999999,
+    "invalid_below": 8.59905,
     "state": "absent",
     "trigger": 9.26
   },
@@ -3090,7 +3090,7 @@
     "trigger": 9.35
   },
   "QUBT::double_bottom": {
-    "invalid_below": 8.628698499999999,
+    "invalid_below": 8.59905,
     "last_alert_at": "2026-05-18T16:45:33.984701+00:00",
     "last_alert_score": 48.76,
     "last_alert_type": "invalidated",
