@@ -1870,7 +1870,7 @@
     "last_alert_score": 58.24,
     "last_alert_type": "breakout",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "candidate",
     "trigger": 338.09
   },
   "INTU::inverse_head_shoulders": {
@@ -2044,7 +2044,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 361.09
   },
   "KEYS::bull_flag": {
@@ -2065,7 +2065,7 @@
   "KEYS::double_bottom": {
     "invalid_below": 331.398325,
     "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 361.09
   },
   "KEYS::high_tight_pullback": {
@@ -2754,18 +2754,18 @@
     "trigger": 12.5
   },
   "NXE::breakout_retest_hold": {
-    "invalid_below": 10.1871,
+    "invalid_below": 10.61775,
     "last_alert_at": "2026-05-12T16:16:33.968238+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 10.15
+    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "state": "retest_hold",
+    "trigger": 10.61
   },
   "NXE::bull_flag": {
-    "invalid_below": 10.135649999999998,
+    "invalid_below": 10.564124999999999,
     "state": "absent",
-    "trigger": 10.81
+    "trigger": 11.2582
   },
   "NXE::double_bottom": {
     "invalid_below": 10.012524999999998,
@@ -2773,7 +2773,7 @@
     "last_alert_score": 51.63,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 10.81
   },
   "NXE::high_tight_pullback": {
@@ -2786,7 +2786,7 @@
     "last_alert_at": "2026-04-29T15:54:39.610790+00:00",
     "last_alert_score": 51.07,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "monitored_until": "2026-08-25T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 9.59
   },
@@ -3426,7 +3426,7 @@
   "TMUS::ascending_triangle": {
     "invalid_below": 170.498575,
     "state": "forming",
-    "trigger": 183.98
+    "trigger": 184.0
   },
   "TMUS::breakout_retest_hold": {
     "invalid_below": 179.51670000000001,
@@ -3444,8 +3444,8 @@
   },
   "TMUS::double_bottom": {
     "invalid_below": 167.129875,
-    "monitored_until": "2026-08-24T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "absent",
     "trigger": 181.73
   },
   "TMUS::vcp": {
