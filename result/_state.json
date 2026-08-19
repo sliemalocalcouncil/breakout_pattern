@@ -79,7 +79,7 @@
     "last_alert_score": 54.31,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 396.26
   },
   "ADI::inverse_head_shoulders": {
@@ -89,8 +89,8 @@
   },
   "ADI::vcp": {
     "invalid_below": 347.43905,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 388.0
   },
   "AEVA::ascending_triangle": {
@@ -100,18 +100,18 @@
     "trigger": 28.42
   },
   "AEVA::bull_flag": {
-    "invalid_below": 21.726539000000002,
+    "invalid_below": 20.399350000000002,
     "state": "absent",
     "trigger": 25.86
   },
   "AEVA::double_bottom": {
-    "invalid_below": 22.09355,
+    "invalid_below": 19.4439,
     "last_alert_at": "2026-06-25T20:38:06.091400+00:00",
     "last_alert_score": 51.54,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
-    "trigger": 25.86
+    "state": "absent",
+    "trigger": 28.42
   },
   "AEVA::high_tight_pullback": {
     "invalid_below": 27.0087,
@@ -1651,12 +1651,12 @@
     "trigger": 295.4
   },
   "HII::cup_with_handle": {
-    "invalid_below": 312.74242499999997,
+    "invalid_below": 312.55035,
     "state": "forming",
     "trigger": 334.5
   },
   "HII::double_bottom": {
-    "invalid_below": 314.0968,
+    "invalid_below": 312.87539999999996,
     "last_alert_at": "2026-05-13T16:15:11.096387+00:00",
     "last_alert_score": 43.35,
     "last_alert_type": "retest",
@@ -1671,7 +1671,7 @@
   },
   "HII::vcp": {
     "invalid_below": 259.6657,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "monitored_until": "2026-08-26T20:00:00+00:00",
     "state": "breakout_confirmed",
     "trigger": 296.19
   },
@@ -2646,14 +2646,14 @@
     "trigger": 565.42
   },
   "NVDA::ascending_triangle": {
-    "invalid_below": 212.957,
+    "invalid_below": 215.409847,
     "monitored_until": null,
     "state": "forming",
     "trigger": 227.92
   },
   "NVDA::base_on_base": {
     "invalid_below": 186.953,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "monitored_until": "2026-08-26T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.39
   },
@@ -2680,8 +2680,8 @@
   "NVDA::double_bottom": {
     "invalid_below": 214.01095,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 227.49
+    "state": "forming",
+    "trigger": 227.92
   },
   "NVDA::high_tight_pullback": {
     "invalid_below": 214.01095,
@@ -2690,7 +2690,7 @@
   },
   "NVDA::vcp": {
     "invalid_below": 187.15984999999998,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
+    "monitored_until": "2026-08-26T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.39
   },
