@@ -1229,10 +1229,10 @@
     "trigger": 770.18
   },
   "CW::bull_flag": {
-    "invalid_below": 671.967,
+    "invalid_below": 658.8074,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 728.05
+    "trigger": 723.88
   },
   "CW::double_bottom": {
     "invalid_below": 671.967,
@@ -3331,7 +3331,7 @@
     "trigger": 9.01
   },
   "SMR::bull_flag": {
-    "invalid_below": 8.4513,
+    "invalid_below": 8.40205,
     "state": "absent",
     "trigger": 10.135
   },
@@ -3354,8 +3354,8 @@
     "last_alert_at": "2026-05-18T16:44:47.097668+00:00",
     "last_alert_score": 39.59,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "absent",
+    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "state": "setup",
     "trigger": 8.95
   },
   "TCEHY::ascending_triangle": {
