@@ -2250,17 +2250,17 @@
     "trigger": 319.99
   },
   "LRCX::bull_flag": {
-    "invalid_below": 300.5038985,
+    "invalid_below": 298.40575,
     "state": "absent",
     "trigger": 345.28
   },
   "LRCX::double_bottom": {
-    "invalid_below": 299.27254999999997,
+    "invalid_below": 298.40575,
     "last_alert_at": "2026-06-05T20:23:18.309857+00:00",
     "last_alert_score": 61.46,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 345.28
   },
   "LRCX::high_tight_pullback": {
@@ -2887,7 +2887,7 @@
     "trigger": 23.84
   },
   "PL::bull_flag": {
-    "invalid_below": 21.7685,
+    "invalid_below": 21.24645,
     "state": "absent",
     "trigger": 25.53
   },
@@ -2952,7 +2952,7 @@
     "last_alert_score": 44.48,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 74.92
   },
   "QBTS::ascending_triangle": {
