@@ -2410,10 +2410,10 @@
     "trigger": 207.9994
   },
   "MRVL::ascending_triangle": {
-    "invalid_below": 203.33355,
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 231.38
+    "invalid_below": 207.93349999999998,
+    "monitored_until": "2026-08-28T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 247.19
   },
   "MRVL::breakout_retest_hold": {
     "invalid_below": 226.5813,
@@ -2438,8 +2438,8 @@
     "last_alert_at": "2026-06-09T16:28:09.795176+00:00",
     "last_alert_score": 57.05,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
+    "state": "setup",
     "trigger": 240.18
   },
   "MRVL::high_tight_pullback": {
@@ -2458,7 +2458,7 @@
     "last_alert_at": "2026-07-29T15:58:03.868208+00:00",
     "last_alert_score": 45.25,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.92
   },
@@ -2558,7 +2558,7 @@
     "trigger": 19.23
   },
   "NNE::bull_flag": {
-    "invalid_below": 17.7497,
+    "invalid_below": 17.523149999999998,
     "monitored_until": null,
     "state": "absent",
     "trigger": 21.13
@@ -2582,8 +2582,8 @@
     "last_alert_at": "2026-06-29T17:08:01.869927+00:00",
     "last_alert_score": 41.2,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "absent",
     "trigger": 18.35
   },
   "NOC::ascending_triangle": {
@@ -3331,7 +3331,7 @@
   "SMR::bull_flag": {
     "invalid_below": 8.40205,
     "state": "absent",
-    "trigger": 10.135
+    "trigger": 9.955
   },
   "SMR::double_bottom": {
     "invalid_below": 8.95365,
@@ -3352,7 +3352,7 @@
     "last_alert_at": "2026-05-18T16:44:47.097668+00:00",
     "last_alert_score": 39.59,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "setup",
     "trigger": 8.95
   },
