@@ -3829,7 +3829,7 @@
     "trigger": 35.36
   },
   "VSH::bull_flag": {
-    "invalid_below": 30.929,
+    "invalid_below": 30.6335,
     "state": "absent",
     "trigger": 36.58
   },
