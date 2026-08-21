@@ -734,12 +734,12 @@
     "trigger": 80.87
   },
   "AXTI::bull_flag": {
-    "invalid_below": 71.91485,
+    "invalid_below": 68.2605,
     "state": "absent",
     "trigger": 97.79
   },
   "AXTI::double_bottom": {
-    "invalid_below": 70.53585,
+    "invalid_below": 68.2605,
     "last_alert_at": "2026-06-05T16:26:48.144876+00:00",
     "last_alert_score": 57.62,
     "last_alert_type": "invalidated",
@@ -763,7 +763,7 @@
     "last_alert_at": "2026-06-08T19:39:04.148798+00:00",
     "last_alert_score": 48.81,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "setup",
     "trigger": 57.616
   },
@@ -1198,7 +1198,7 @@
     "trigger": 124.7103
   },
   "CSCO::double_bottom": {
-    "invalid_below": 109.1479485,
+    "invalid_below": 108.1333,
     "monitored_until": null,
     "state": "forming",
     "trigger": 115.949
@@ -1214,13 +1214,13 @@
     "trigger": 122.89
   },
   "CSCO::vcp": {
-    "invalid_below": 109.982736,
+    "invalid_below": 108.40417500000001,
     "last_alert_at": "2026-06-03T18:19:52.798346+00:00",
     "last_alert_score": 49.18,
     "last_alert_type": "breakout",
     "monitored_until": null,
     "state": "absent",
-    "trigger": 117.28
+    "trigger": 124.7103
   },
   "CW::ascending_triangle": {
     "invalid_below": 715.21835,
@@ -2638,7 +2638,7 @@
   },
   "NVDA::base_on_base": {
     "invalid_below": 186.953,
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.39
   },
@@ -2663,7 +2663,7 @@
     "trigger": 216.825
   },
   "NVDA::double_bottom": {
-    "invalid_below": 213.5086,
+    "invalid_below": 212.4251,
     "monitored_until": null,
     "state": "forming",
     "trigger": 227.92
@@ -2675,7 +2675,7 @@
   },
   "NVDA::vcp": {
     "invalid_below": 187.15984999999998,
-    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "monitored_until": "2026-08-28T20:00:00+00:00",
     "state": "setup",
     "trigger": 214.39
   },
@@ -3961,12 +3961,6 @@
     "last_alert_type": "invalidated",
     "state": "invalidated",
     "trigger": 51.65
-  },
-  "XE::breakout_retest_hold": {
-    "invalid_below": 21.05235,
-    "monitored_until": "2026-08-21T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 21.28
   },
   "XE::bull_flag": {
     "invalid_below": 17.66105,
