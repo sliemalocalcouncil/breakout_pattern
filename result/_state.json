@@ -2181,7 +2181,7 @@
   "LHX::double_bottom": {
     "invalid_below": 274.421,
     "monitored_until": null,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 294.14
   },
   "LHX::inverse_head_shoulders": {
@@ -2627,7 +2627,7 @@
   "NOC::vcp": {
     "invalid_below": 511.97344999999996,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 565.42
   },
   "NVDA::ascending_triangle": {
