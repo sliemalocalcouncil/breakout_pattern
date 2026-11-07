@@ -2496,10 +2496,10 @@
     "trigger": 16.15
   },
   "NNE::bull_flag": {
-    "invalid_below": 14.01655,
+    "invalid_below": 9.151635,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 16.94
+    "trigger": 12.14
   },
   "NNE::double_bottom": {
     "invalid_below": 15.1493,
@@ -2516,13 +2516,13 @@
     "trigger": 21.13
   },
   "NNE::vcp": {
-    "invalid_below": 14.804549999999999,
+    "invalid_below": 11.82985,
     "last_alert_at": "2026-06-29T17:08:01.869927+00:00",
     "last_alert_score": 41.2,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "invalidated",
-    "trigger": 19.6
+    "trigger": 16.94
   },
   "NOC::ascending_triangle": {
     "invalid_below": 536.825,
@@ -2656,12 +2656,6 @@
     "state": "forming",
     "trigger": 12.5
   },
-  "NXE::breakout_retest_hold": {
-    "invalid_below": 8.55855,
-    "monitored_until": "2026-11-04T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 8.635
-  },
   "NXE::bull_flag": {
     "invalid_below": 9.09155,
     "state": "absent",
@@ -2673,13 +2667,13 @@
     "trigger": 11.2582
   },
   "NXE::double_bottom": {
-    "invalid_below": 7.7353035000000006,
+    "invalid_below": 7.4072,
     "last_alert_at": "2026-05-15T15:58:46.743253+00:00",
     "last_alert_score": 51.63,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-11-04T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 8.635
+    "monitored_until": null,
+    "state": "forming",
+    "trigger": 8.185
   },
   "NXE::high_tight_pullback": {
     "invalid_below": 10.061774999999999,
@@ -3478,9 +3472,9 @@
     "trigger": 7.515
   },
   "UEC::bull_flag": {
-    "invalid_below": 7.417050000000001,
+    "invalid_below": 6.023275,
     "state": "absent",
-    "trigger": 8.315
+    "trigger": 8.205
   },
   "UEC::cup_with_handle": {
     "invalid_below": 10.41145,
@@ -3520,7 +3514,7 @@
     "last_alert_score": 44.85,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 10.39
   },
   "UUUU::ascending_triangle": {
@@ -3773,7 +3767,7 @@
   },
   "VZ::vcp": {
     "invalid_below": 41.83295,
-    "monitored_until": "2026-11-13T21:00:00+00:00",
+    "monitored_until": "2026-11-16T21:00:00+00:00",
     "state": "setup",
     "trigger": 45.29
   },
